@@ -1,4 +1,4 @@
-# NetSniffer - Analizador de Red
+# sistema de monitoreo ids - Analizador de Red
 
 Un analiza1. **Prueba la captura de paquetes ICMP** (opcional):
    ```
