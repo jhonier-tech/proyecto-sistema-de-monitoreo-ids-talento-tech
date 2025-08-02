@@ -1,0 +1,471 @@
+2025-07-29 22:31:10 [INFO] - Logger inicializado (Windows 10)
+2025-07-29 22:31:10 [INFO] - Sistema de monitoreo IDS iniciado en modo normal
+2025-07-29 22:31:10 [WARNING] - La aplicación no se está ejecutando con privilegios de administrador. Algunas funciones de captura de paquetes pueden no funcionar correctamente.
+2025-07-29 22:31:10 [INFO] - Sistema operativo detectado: Windows 10 (64bit)
+2025-07-29 22:31:10 [WARNING] - ALERTA: No se está ejecutando con privilegios de administrador
+2025-07-29 22:31:10 [WARNING] - La captura de paquetes puede fallar o ser limitada
+2025-07-29 22:31:10 [WARNING] - No se está ejecutando con privilegios de administrador
+2025-07-29 22:31:10 [WARNING] - La captura de paquetes puede fallar sin privilegios elevados
+2025-07-29 22:31:10 [INFO] - Se encontraron 14 interfaces de red
+2025-07-29 22:31:10 [INFO] - Compatibilidad WinPcap OK - La captura de paquetes ICMP debería funcionar
+2025-07-29 22:31:11 [INFO] - Tema del sistema aplicado
+2025-07-29 22:31:11 [INFO] - Tema del sistema aplicado
+2025-07-29 22:31:56 [INFO] - Interfaz seleccionada: \Device\NPF_{089A27A5-ACF2-4F67-B4FA-1CD3F4C1C92E} - Realtek RTL8723DE 802.11b/g/n PCIe Adapter
+2025-07-29 22:31:56 [INFO] - Interfaz seleccionada para captura: \Device\NPF_{089A27A5-ACF2-4F67-B4FA-1CD3F4C1C92E} - Realtek RTL8723DE 802.11b/g/n PCIe Adapter
+2025-07-29 22:31:59 [INFO] - Creando capturer para interfaz: \Device\NPF_{089A27A5-ACF2-4F67-B4FA-1CD3F4C1C92E}
+2025-07-29 22:31:59 [INFO] - Usando modo de captura por lotes (optimizado)
+2025-07-29 22:31:59 [INFO] - Filtro actual: ''
+2025-07-29 22:31:59 [INFO] - Captura iniciada en interfaz: \Device\NPF_{089A27A5-ACF2-4F67-B4FA-1CD3F4C1C92E}
+2025-07-29 22:31:59 [INFO] - Captura iniciada correctamente
+2025-07-29 22:32:01 [INFO] - Paquete #1 capturado: Ethernet, ARP - 42 bytes
+2025-07-29 22:32:02 [INFO] - Paquete #2 capturado: Ethernet, ARP - 42 bytes
+2025-07-29 22:32:03 [INFO] - Paquete #3 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:32:03 [INFO] - Paquete #4 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:32:03 [INFO] - Paquete #5 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:32:03 [INFO] - Paquete #6 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:32:03 [INFO] - Paquete #7 capturado: Ethernet, ARP - 42 bytes
+2025-07-29 22:32:03 [INFO] - Paquete #8 capturado: Ethernet, ARP - 42 bytes
+2025-07-29 22:32:04 [INFO] - Paquete #9 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:32:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:04 [INFO] - Paquete #10 capturado: Ethernet, ARP - 42 bytes
+2025-07-29 22:32:05 [INFO] - Paquete #11 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:32:06 [INFO] - Paquete #12 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:32:06 [INFO] - Paquete #13 capturado: Ethernet, ARP - 42 bytes
+2025-07-29 22:32:06 [INFO] - Paquete #14 capturado: Ethernet, ARP - 42 bytes
+2025-07-29 22:32:06 [INFO] - Paquete #15 capturado: Ethernet, ARP - 42 bytes
+2025-07-29 22:32:07 [INFO] - Paquete #16 capturado: Ethernet, ARP - 42 bytes
+2025-07-29 22:32:08 [INFO] - Paquete #17 capturado: Ethernet, ARP - 42 bytes
+2025-07-29 22:32:09 [INFO] - Paquete #18 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:32:09 [INFO] - Paquete #19 capturado: Ethernet, ARP - 42 bytes
+2025-07-29 22:32:10 [INFO] - Paquete #20 capturado: Ethernet, IP, UDP, DNS - 92 bytes
+2025-07-29 22:32:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:32:10 [INFO] - Paquete #21 capturado: Ethernet, IP, UDP, DNS - 320 bytes
+2025-07-29 22:32:10 [INFO] - Paquete #22 capturado: Ethernet, IP, ICMP - 106 bytes
+2025-07-29 22:32:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (ICMP)
+2025-07-29 22:32:10 [INFO] - Paquete #23 capturado: Ethernet, IP, ICMP - 70 bytes
+2025-07-29 22:32:10 [INFO] - Paquete #24 capturado: Ethernet, IP, ICMP - 106 bytes
+2025-07-29 22:32:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (ICMP)
+2025-07-29 22:32:10 [INFO] - Paquete #25 capturado: Ethernet, IP, ICMP - 186 bytes
+2025-07-29 22:32:10 [INFO] - Paquete #26 capturado: Ethernet, IP, ICMP - 106 bytes
+2025-07-29 22:32:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (ICMP)
+2025-07-29 22:32:10 [INFO] - Paquete #27 capturado: Ethernet, IP, ICMP - 186 bytes
+2025-07-29 22:32:10 [INFO] - Paquete #28 capturado: Ethernet, IP, ICMP - 106 bytes
+2025-07-29 22:32:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (ICMP)
+2025-07-29 22:32:10 [INFO] - Paquete #29 capturado: Ethernet, IP, ICMP - 186 bytes
+2025-07-29 22:32:10 [INFO] - Paquete #30 capturado: Ethernet, IP, ICMP - 106 bytes
+2025-07-29 22:32:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (ICMP)
+2025-07-29 22:32:10 [INFO] - Paquete #31 capturado: Ethernet, IP, ICMP - 186 bytes
+2025-07-29 22:32:11 [INFO] - Paquete #32 capturado: Ethernet, IP, ICMP - 106 bytes
+2025-07-29 22:32:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (ICMP)
+2025-07-29 22:32:11 [INFO] - Paquete #33 capturado: Ethernet, IP, ICMP - 70 bytes
+2025-07-29 22:32:11 [INFO] - Paquete #34 capturado: Ethernet, IP, ICMP - 106 bytes
+2025-07-29 22:32:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (ICMP)
+2025-07-29 22:32:11 [INFO] - Paquete #35 capturado: Ethernet, IP, ICMP - 70 bytes
+2025-07-29 22:32:11 [INFO] - Paquete #36 capturado: Ethernet, IP, ICMP - 106 bytes
+2025-07-29 22:32:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (ICMP)
+2025-07-29 22:32:11 [INFO] - Paquete #37 capturado: Ethernet, IP, ICMP - 70 bytes
+2025-07-29 22:32:11 [INFO] - Paquete #38 capturado: Ethernet, IP, ICMP - 106 bytes
+2025-07-29 22:32:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (ICMP)
+2025-07-29 22:32:11 [INFO] - Paquete #39 capturado: Ethernet, IP, ICMP - 134 bytes
+2025-07-29 22:32:11 [INFO] - Paquete #40 capturado: Ethernet, IP, ICMP - 106 bytes
+2025-07-29 22:32:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (ICMP)
+2025-07-29 22:32:11 [INFO] - Paquete #41 capturado: Ethernet, IP, ICMP - 134 bytes
+2025-07-29 22:32:11 [INFO] - Paquete #42 capturado: Ethernet, IP, ICMP - 106 bytes
+2025-07-29 22:32:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (ICMP)
+2025-07-29 22:32:11 [INFO] - Paquete #43 capturado: Ethernet, IP, ICMP - 134 bytes
+2025-07-29 22:32:11 [INFO] - Paquete #44 capturado: Ethernet, IP, ICMP - 106 bytes
+2025-07-29 22:32:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (ICMP)
+2025-07-29 22:32:11 [INFO] - Paquete #45 capturado: Ethernet, IP, ICMP - 134 bytes
+2025-07-29 22:32:11 [INFO] - Paquete #46 capturado: Ethernet, IP, ICMP - 106 bytes
+2025-07-29 22:32:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (ICMP)
+2025-07-29 22:32:11 [INFO] - Paquete #47 capturado: Ethernet, IP, ICMP - 134 bytes
+2025-07-29 22:32:11 [INFO] - Paquete #48 capturado: Ethernet, IP, ICMP - 106 bytes
+2025-07-29 22:32:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (ICMP)
+2025-07-29 22:32:11 [INFO] - Paquete #49 capturado: Ethernet, IP, ICMP - 106 bytes
+2025-07-29 22:32:11 [INFO] - Paquete #50 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:32:12 [INFO] - Paquete #51 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:32:12 [INFO] - Paquete #52 capturado: Ethernet, ARP - 42 bytes
+2025-07-29 22:32:12 [INFO] - Paquete #53 capturado: Ethernet, ARP - 42 bytes
+2025-07-29 22:32:12 [INFO] - Paquete #54 capturado: Ethernet, ARP - 42 bytes
+2025-07-29 22:32:13 [INFO] - Paquete #55 capturado: Ethernet, ARP - 42 bytes
+2025-07-29 22:32:14 [INFO] - Paquete #56 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:32:15 [INFO] - Paquete #57 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:32:15 [INFO] - Paquete #58 capturado: Ethernet, ARP - 42 bytes
+2025-07-29 22:32:15 [INFO] - Paquete #59 capturado: Ethernet, IP, TCP - 55 bytes
+2025-07-29 22:32:15 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:17 [INFO] - Paquete #60 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:32:17 [INFO] - Paquete #61 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:32:18 [INFO] - Paquete #62 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:32:18 [INFO] - Paquete #63 capturado: Ethernet, ARP - 42 bytes
+2025-07-29 22:32:18 [INFO] - Paquete #64 capturado: Ethernet, IP, TCP - 55 bytes
+2025-07-29 22:32:18 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:19 [INFO] - Paquete #65 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:32:19 [INFO] - Paquete #66 capturado: Ethernet, IP, UDP, DNS - 89 bytes
+2025-07-29 22:32:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:32:19 [INFO] - Paquete #67 capturado: Ethernet, IP, UDP, DNS - 226 bytes
+2025-07-29 22:32:19 [INFO] - Paquete #68 capturado: Ethernet, IP, TCP - 66 bytes
+2025-07-29 22:32:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:19 [INFO] - Paquete #69 capturado: Ethernet, IP, TCP - 66 bytes
+2025-07-29 22:32:19 [INFO] - Paquete #70 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:32:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:19 [INFO] - Paquete #71 capturado: Ethernet, IP, TCP - 268 bytes
+2025-07-29 22:32:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:19 [INFO] - Paquete #72 capturado: Ethernet, IP, TCP - 1514 bytes
+2025-07-29 22:32:19 [INFO] - Paquete #73 capturado: Ethernet, IP, TCP - 1514 bytes
+2025-07-29 22:32:19 [INFO] - Paquete #74 capturado: Ethernet, IP, TCP - 1369 bytes
+2025-07-29 22:32:19 [INFO] - Paquete #75 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:32:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:19 [INFO] - Paquete #76 capturado: Ethernet, IP, TCP - 212 bytes
+2025-07-29 22:32:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:19 [INFO] - Paquete #77 capturado: Ethernet, IP, TCP - 105 bytes
+2025-07-29 22:32:19 [INFO] - Paquete #78 capturado: Ethernet, IP, TCP - 123 bytes
+2025-07-29 22:32:19 [INFO] - Paquete #79 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:32:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:19 [INFO] - Paquete #80 capturado: Ethernet, IP, TCP - 141 bytes
+2025-07-29 22:32:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:19 [INFO] - Paquete #81 capturado: Ethernet, IP, TCP - 942 bytes
+2025-07-29 22:32:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:19 [INFO] - Paquete #82 capturado: Ethernet, IP, TCP - 92 bytes
+2025-07-29 22:32:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:19 [INFO] - Paquete #83 capturado: Ethernet, IP, TCP - 1442 bytes
+2025-07-29 22:32:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:19 [INFO] - Paquete #84 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:32:19 [INFO] - Paquete #85 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:32:19 [INFO] - Paquete #86 capturado: Ethernet, IP, TCP - 92 bytes
+2025-07-29 22:32:19 [INFO] - Paquete #87 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:32:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:19 [INFO] - Paquete #88 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:32:19 [INFO] - Paquete #89 capturado: Ethernet, IP, TCP - 339 bytes
+2025-07-29 22:32:22 [INFO] - Paquete #90 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:32:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:22 [INFO] - Paquete #91 capturado: Ethernet, IP, TCP - 96 bytes
+2025-07-29 22:32:22 [INFO] - Paquete #92 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:32:22 [INFO] - Paquete #93 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:32:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:22 [INFO] - Paquete #94 capturado: Ethernet, IP, TCP - 175 bytes
+2025-07-29 22:32:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:22 [INFO] - Paquete #95 capturado: Ethernet, IP, TCP - 56 bytes
+2025-07-29 22:32:22 [INFO] - Paquete #96 capturado: Ethernet, IP, TCP - 88 bytes
+2025-07-29 22:32:22 [INFO] - Paquete #97 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:32:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:22 [INFO] - Paquete #98 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:32:22 [INFO] - Paquete #99 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:32:22 [INFO] - Paquete #100 capturado: Ethernet, ARP - 42 bytes
+2025-07-29 22:32:26 [INFO] - Paquete #110 capturado: Ethernet, ARP - 42 bytes
+2025-07-29 22:32:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:26 [INFO] - Paquete #120 capturado: Ethernet, IP, TCP - 172 bytes
+2025-07-29 22:32:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:26 [INFO] - Paquete #130 capturado: Ethernet, IP, TCP - 186 bytes
+2025-07-29 22:32:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:26 [INFO] - Paquete #140 capturado: Ethernet, IP, UDP, DNS - 186 bytes
+2025-07-29 22:32:30 [INFO] - Paquete #150 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:32:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:32:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:35 [INFO] - Paquete #160 capturado: Ethernet, IP, UDP, DNS - 118 bytes
+2025-07-29 22:32:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (UDP)
+2025-07-29 22:32:35 [INFO] - Paquete #170 capturado: Ethernet, UDP, DNS - 470 bytes
+2025-07-29 22:32:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:35 [INFO] - Paquete #180 capturado: Ethernet, IP, TCP - 66 bytes
+2025-07-29 22:32:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:44 [INFO] - Paquete #190 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:32:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:32:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:44 [INFO] - Paquete #200 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:32:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:32:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:44 [INFO] - Paquete #210 capturado: Ethernet, IP, TCP - 164 bytes
+2025-07-29 22:32:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:46 [INFO] - Paquete #220 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:32:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:32:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:46 [INFO] - Paquete #230 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:32:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:46 [INFO] - Paquete #240 capturado: Ethernet, IP, TCP - 692 bytes
+2025-07-29 22:32:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:50 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:50 [INFO] - Paquete #250 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:32:51 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:53 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:53 [INFO] - Paquete #260 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:32:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:55 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:55 [INFO] - Paquete #270 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:32:55 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:55 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:56 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:32:58 [INFO] - Paquete #280 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:32:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:01 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:01 [INFO] - Paquete #290 capturado: Ethernet, IP, TCP - 88 bytes
+2025-07-29 22:33:01 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:01 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:03 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:03 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:04 [INFO] - Paquete #300 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:33:07 [INFO] - Paquete #310 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:33:07 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:07 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:09 [INFO] - Paquete #320 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:33:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:13 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:13 [INFO] - Paquete #330 capturado: Ethernet, IP, UDP, DNS - 70 bytes
+2025-07-29 22:33:13 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:14 [INFO] - Paquete #340 capturado: Ethernet, IP, UDP - 1292 bytes
+2025-07-29 22:33:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:14 [INFO] - Paquete #350 capturado: Ethernet, IP, UDP - 73 bytes
+2025-07-29 22:33:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:14 [INFO] - Paquete #360 capturado: Ethernet, IP, TCP - 1438 bytes
+2025-07-29 22:33:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:14 [INFO] - Paquete #370 capturado: Ethernet, IP, TCP - 474 bytes
+2025-07-29 22:33:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:17 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:19 [INFO] - Paquete #380 capturado: Ethernet, ARP - 42 bytes
+2025-07-29 22:33:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:19 [INFO] - Paquete #390 capturado: Ethernet, IP, UDP, DNS - 121 bytes
+2025-07-29 22:33:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:19 [INFO] - Paquete #400 capturado: Ethernet, IP, TCP - 55 bytes
+2025-07-29 22:33:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:22 [INFO] - Paquete #410 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:33:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:22 [INFO] - Paquete #420 capturado: Ethernet, IP, TCP, HTTP - 1095 bytes
+2025-07-29 22:33:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:22 [INFO] - Paquete #430 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:33:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:23 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:25 [INFO] - Paquete #440 capturado: Ethernet, IP, TCP - 78 bytes
+2025-07-29 22:33:25 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:25 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:25 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:27 [INFO] - Paquete #450 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:33:27 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:28 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:28 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:28 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:29 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:29 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:32 [INFO] - Paquete #460 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:33:32 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:32 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:33 [INFO] - Paquete #470 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:33:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:37 [INFO] - Paquete #480 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:33:37 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:39 [INFO] - Paquete #490 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:33:40 [INFO] - Paquete #500 capturado: Ethernet, ARP - 42 bytes
+2025-07-29 22:33:42 [INFO] - Paquete #510 capturado: Ethernet, ARP - 42 bytes
+2025-07-29 22:33:42 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:43 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:44 [INFO] - Paquete #520 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:33:45 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:45 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [INFO] - Paquete #530 capturado: Ethernet, IP, UDP, DNS - 151 bytes
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:46 [INFO] - Paquete #540 capturado: Ethernet, IP, UDP - 85 bytes
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [INFO] - Paquete #550 capturado: Ethernet, IP, TCP - 264 bytes
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [INFO] - Paquete #560 capturado: Ethernet, IP, TCP - 212 bytes
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [INFO] - Paquete #570 capturado: Ethernet, IP, TCP - 92 bytes
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [INFO] - Paquete #580 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:46 [INFO] - Paquete #590 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [INFO] - Paquete #600 capturado: Ethernet, IP, TCP - 1514 bytes
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [INFO] - Paquete #610 capturado: Ethernet, IP, TCP - 1514 bytes
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [INFO] - Paquete #620 capturado: Ethernet, IP, UDP, DNS - 186 bytes
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:33:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:47 [INFO] - Paquete #630 capturado: Ethernet, UDP, DNS - 206 bytes
+2025-07-29 22:33:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:47 [INFO] - Paquete #640 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:33:50 [INFO] - Paquete #650 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:33:50 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:51 [INFO] - Paquete #660 capturado: Ethernet, IP, TCP - 164 bytes
+2025-07-29 22:33:51 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:53 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:55 [INFO] - Paquete #670 capturado: Ethernet, IP, UDP, DNS - 290 bytes
+2025-07-29 22:33:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:33:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:01 [INFO] - Paquete #680 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:34:01 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:01 [INFO] - Devolviendo 684 paquetes para estadísticas
+2025-07-29 22:34:02 [INFO] - Actualizando estadísticas con 684 paquetes
+2025-07-29 22:34:02 [INFO] - Devolviendo 684 paquetes para estadísticas
+2025-07-29 22:34:02 [INFO] - Actualizando estadísticas con 684 paquetes
+2025-07-29 22:34:02 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:02 [INFO] - Paquete #690 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:34:03 [INFO] - Devolviendo 690 paquetes para estadísticas
+2025-07-29 22:34:03 [INFO] - Actualizando estadísticas con 690 paquetes
+2025-07-29 22:34:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:04 [INFO] - Devolviendo 693 paquetes para estadísticas
+2025-07-29 22:34:04 [INFO] - Actualizando estadísticas con 693 paquetes
+2025-07-29 22:34:05 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:05 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:05 [INFO] - Devolviendo 699 paquetes para estadísticas
+2025-07-29 22:34:05 [INFO] - Actualizando estadísticas con 699 paquetes
+2025-07-29 22:34:06 [INFO] - Devolviendo 699 paquetes para estadísticas
+2025-07-29 22:34:06 [INFO] - Actualizando estadísticas con 699 paquetes
+2025-07-29 22:34:06 [INFO] - Paquete #700 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:34:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:07 [INFO] - Devolviendo 702 paquetes para estadísticas
+2025-07-29 22:34:07 [INFO] - Actualizando estadísticas con 702 paquetes
+2025-07-29 22:34:08 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:08 [INFO] - Devolviendo 705 paquetes para estadísticas
+2025-07-29 22:34:08 [INFO] - Actualizando estadísticas con 705 paquetes
+2025-07-29 22:34:09 [INFO] - Devolviendo 705 paquetes para estadísticas
+2025-07-29 22:34:09 [INFO] - Actualizando estadísticas con 705 paquetes
+2025-07-29 22:34:10 [INFO] - Devolviendo 705 paquetes para estadísticas
+2025-07-29 22:34:10 [INFO] - Actualizando estadísticas con 705 paquetes
+2025-07-29 22:34:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-07-29 22:34:11 [INFO] - Paquete #710 capturado: Ethernet, IP, TCP - 66 bytes
+2025-07-29 22:34:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:11 [INFO] - Paquete #720 capturado: Ethernet, IP, TCP - 123 bytes
+2025-07-29 22:34:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:11 [INFO] - Paquete #730 capturado: Ethernet, IP, TCP - 341 bytes
+2025-07-29 22:34:11 [INFO] - Devolviendo 730 paquetes para estadísticas
+2025-07-29 22:34:11 [INFO] - Actualizando estadísticas con 730 paquetes
+2025-07-29 22:34:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:12 [INFO] - Paquete #740 capturado: Ethernet, ARP - 42 bytes
+2025-07-29 22:34:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:17 [INFO] - Paquete #750 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:34:17 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:17 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:19 [INFO] - Paquete #760 capturado: Ethernet, UDP, DNS - 470 bytes
+2025-07-29 22:34:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:20 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:20 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:20 [INFO] - Paquete #770 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:34:20 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:20 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:20 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:21 [INFO] - Paquete #780 capturado: Ethernet, IP, TCP - 164 bytes
+2025-07-29 22:34:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:23 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:23 [INFO] - Paquete #790 capturado: Ethernet, ARP - 60 bytes
+2025-07-29 22:34:23 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:23 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)
+2025-07-29 22:34:26 [INFO] - Captura detenida
+2025-07-29 22:34:26 [INFO] - Captura detenida - 797 paquetes capturados
+2025-07-29 22:34:26 [INFO] - Paquete #800 capturado: Ethernet, IP, TCP - 54 bytes
+2025-07-29 22:34:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.1.27 - SO: Windows - Intento de conexión bloqueada desde Windows (TCP)

@@ -1,0 +1,304 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Módulo para capturar paquetes de red utilizando Scapy
+"""
+
+import threading
+import logging
+import time
+from scapy.all import sniff, conf
+from PyQt5.QtCore import QObject, pyqtSignal
+
+class PacketCapturer(QObject):
+    """Clase para capturar paquetes de red usando Scapy"""
+    
+    # Señal emitida cuando se captura un paquete
+    packetCaptured = pyqtSignal(object)
+    
+    def __init__(self, interface=None):
+        """Inicializa el capturador de paquetes
+        
+        Args:
+            interface (str, optional): Nombre de la interfaz a usar para captura
+        """
+        super().__init__()
+        
+        self.interface = interface
+        self.running = False
+        self.capture_thread = None
+        self.stop_sniff = threading.Event()
+        
+    def start_capture(self, filter_str=None):
+        """Inicia la captura de paquetes
+        
+        Args:
+            filter_str (str, optional): Filtro BPF para aplicar a la captura
+        """
+        if self.running:
+            logging.warning("La captura ya está en curso")
+            return
+            
+        self.running = True
+        self.stop_sniff.clear()
+        
+        # Iniciar el hilo de captura
+        self.capture_thread = threading.Thread(
+            target=self._capture_thread_func,
+            args=(filter_str,),
+            daemon=True
+        )
+        self.capture_thread.start()
+        
+        logging.info(f"Captura iniciada en interfaz: {self.interface}")
+        
+    def stop_capture(self):
+        """Detiene la captura de paquetes"""
+        if not self.running:
+            return
+            
+        self.running = False
+        self.stop_sniff.set()
+        
+        if self.capture_thread and self.capture_thread.is_alive():
+            self.capture_thread.join(timeout=1.0)
+            
+        logging.info("Captura detenida")
+        
+    def _capture_thread_func(self, filter_str):
+        """Función principal del hilo de captura
+        
+        Args:
+            filter_str (str): Filtro BPF para aplicar a la captura
+        """
+        try:
+            import logging
+            logging.info(f"Iniciando captura en interfaz: {self.interface}")
+            logging.info(f"Filtro aplicado: {filter_str}")
+            
+            # Configurar opciones de captura para tráfico real
+            kwargs = {
+                'prn': self._packet_callback,
+                'store': False,
+                'stop_filter': lambda x: self.stop_sniff.is_set(),
+                'count': 0,  # 0 significa sin límite
+                # Nota: no usar 'monitor' en Windows
+            }
+            
+            if self.interface:
+                kwargs['iface'] = self.interface
+                logging.info(f"Usando interfaz: {self.interface}")
+            else:
+                logging.warning("No se especificó interfaz, usando la predeterminada")
+                
+            if filter_str:
+                kwargs['filter'] = filter_str
+                
+            # Usar timeout para hacer la captura más responsiva
+            kwargs['timeout'] = 1
+            
+            # Iniciar la captura en un bucle para mayor robustez
+            while self.running and not self.stop_sniff.is_set():
+                try:
+                    # Optimizar límite de paquetes por cada ciclo para mejorar la fluidez
+                    kwargs['count'] = 100  # Capturar un máximo de 100 paquetes por ciclo
+                    
+                    # En Windows, a veces necesitamos estas configuraciones especiales
+                    if hasattr(conf, 'use_pcap') and conf.use_pcap:
+                        # Configuración específica para WinPcap/Npcap
+                        logging.info("Usando modo de captura WinPcap/Npcap")
+                        sniff(**kwargs)
+                    else:
+                        # Método estándar
+                        sniff(**kwargs)
+                        
+                except Exception as inner_e:
+                    error_msg = str(inner_e).lower()
+                    logging.error(f"Error durante la captura: {inner_e}")
+                    
+                    if "permission" in error_msg:
+                        logging.error("Error de permisos: Ejecute la aplicación como administrador")
+                    elif "no such device" in error_msg:
+                        logging.error(f"Interfaz no encontrada: {self.interface}")
+                        break  # No tiene sentido reintentar con una interfaz inexistente
+                    
+                    # Verificar si Npcap está instalado en Windows
+                    import platform
+                    if platform.system() == "Windows":
+                        import os
+                        if not os.path.exists("C:\\Windows\\System32\\Npcap"):
+                            logging.error("Npcap no parece estar instalado. Por favor instale Npcap desde https://npcap.com")
+                            break
+                    
+                    time.sleep(1)  # Pausa antes de reintentar
+            
+        except Exception as e:
+            logging.error(f"Error crítico en el hilo de captura: {e}")
+            self.running = False
+            
+    def _packet_callback(self, packet):
+        """Callback llamado por cada paquete capturado
+        
+        Args:
+            packet: El paquete capturado por Scapy
+        """
+        if self.running:
+            # Optimización: Limitar procesamiento inmediato
+            # Emitir señal con el paquete capturado utilizando QueuedConnection
+            # para no bloquear el hilo de captura
+            self.packetCaptured.emit(packet)
+            
+    @staticmethod
+    def get_available_interfaces():
+        """Obtiene una lista de interfaces de red disponibles
+        
+        Returns:
+            list: Lista de nombres de interfaces disponibles
+        """
+        import logging
+        
+        # Implementar caché para reducir el tiempo de obtención de interfaces
+        from functools import lru_cache
+        import time
+        
+        @lru_cache(maxsize=1)
+        def _cached_interfaces(timestamp):
+            """Obtener interfaces con caché para mejorar rendimiento
+            El parámetro timestamp se usa para invalidar la caché periódicamente
+            """
+            interfaces = []
+            
+            try:
+                # Método 1: Obtener interfaces de Scapy
+                for iface in conf.ifaces.values():
+                    iface_info = {
+                        'name': iface.name,
+                        'description': iface.description if hasattr(iface, 'description') else '',
+                        'mac': iface.mac if hasattr(iface, 'mac') else '',
+                        'ip': iface.ip if hasattr(iface, 'ip') else ''
+                    }
+                    
+                    logging.info(f"Interfaz detectada con Scapy: {iface_info['name']} - {iface_info['description']}")
+                    interfaces.append(iface_info)
+                
+                
+                # Método 2: Usar netifaces si no se encontraron interfaces con Scapy
+                if not interfaces:
+                    try:
+                        import netifaces
+                        logging.info("Intentando obtener interfaces con netifaces")
+                        
+                        for iface_name in netifaces.interfaces():
+                            try:
+                                addrs = netifaces.ifaddresses(iface_name)
+                                
+                                # Obtener dirección MAC
+                                mac = ''
+                                if netifaces.AF_LINK in addrs and addrs[netifaces.AF_LINK]:
+                                    mac = addrs[netifaces.AF_LINK][0].get('addr', '')
+                                
+                                # Obtener dirección IP
+                                ip = ''
+                                if netifaces.AF_INET in addrs and addrs[netifaces.AF_INET]:
+                                    ip = addrs[netifaces.AF_INET][0].get('addr', '')
+                                    
+                                interfaces.append({
+                                    'name': iface_name,
+                                    'description': f'Interfaz {iface_name}',
+                                    'mac': mac,
+                                    'ip': ip
+                                })
+                                logging.info(f"Interfaz detectada con netifaces: {iface_name} - IP: {ip}")
+                            except Exception as e:
+                                logging.error(f"Error con interfaz {iface_name}: {e}")
+                    except ImportError:
+                        logging.warning("No se pudo importar netifaces, usando método alternativo")
+                
+                return interfaces
+            except Exception as e:
+                logging.error(f"Error al obtener interfaces: {e}")
+                import traceback
+                logging.error(traceback.format_exc())
+                return []
+        
+        # Usar el timestamp actual redondeado a 5 minutos para permitir una actualización cada 5 minutos como máximo
+        current_5min = int(time.time() / 300)
+        return _cached_interfaces(current_5min)
+                    
+                    # Método 3: Usar ipconfig como alternativa en Windows
+                    try:
+                        import subprocess
+                        import re
+                        import platform
+                        
+                        if platform.system() == "Windows":
+                            # Ejecutar ipconfig y capturar su salida
+                            proc = subprocess.Popen("ipconfig /all", shell=True, stdout=subprocess.PIPE)
+                            output = proc.stdout.read().decode('latin-1', errors='ignore')
+                            
+                            # Buscar interfaces con patrón simple
+                            iface_blocks = re.split(r'\r?\n\r?\n', output)
+                            for block in iface_blocks:
+                                if not block.strip():
+                                    continue
+                                    
+                                name_match = re.search(r'Adaptador.*: (.*?):', block)
+                                if name_match:
+                                    iface_name = name_match.group(1).strip()
+                                    
+                                    # Buscar MAC e IP
+                                    mac_match = re.search(r'Direcci.n f.sica.*: (.*?)[\r\n]', block)
+                                    mac = mac_match.group(1).strip() if mac_match else ''
+                                    
+                                    ip_match = re.search(r'Direcci.n IPv4.*: (.*?)[\r\n]', block)
+                                    ip = ip_match.group(1).strip() if ip_match else ''
+                                    
+                                    if mac or ip:  # Solo agregar si tiene al menos MAC o IP
+                                        interfaces.append({
+                                            'name': iface_name,
+                                            'description': f'Adaptador {iface_name}',
+                                            'mac': mac,
+                                            'ip': ip
+                                        })
+                                        logging.info(f"Interfaz detectada con ipconfig: {iface_name} - IP: {ip}")
+                        else:
+                            # En sistemas Unix/Linux, usar ifconfig
+                            proc = subprocess.Popen("ifconfig -a", shell=True, stdout=subprocess.PIPE)
+                            output = proc.stdout.read().decode('utf-8', errors='ignore')
+                            
+                            # Análisis simple de la salida de ifconfig
+                            iface_blocks = re.split(r'\n(?=\w)', output)
+                            for block in iface_blocks:
+                                if not block.strip():
+                                    continue
+                                
+                                name_match = re.search(r'^(\w+):', block)
+                                if name_match:
+                                    iface_name = name_match.group(1)
+                                    
+                                    # Buscar MAC e IP
+                                    mac_match = re.search(r'ether (\S+)', block)
+                                    mac = mac_match.group(1) if mac_match else ''
+                                    
+                                    ip_match = re.search(r'inet (\S+)', block)
+                                    ip = ip_match.group(1) if ip_match else ''
+                                    
+                                    if mac or ip:
+                                        interfaces.append({
+                                            'name': iface_name,
+                                            'description': f'Interfaz {iface_name}',
+                                            'mac': mac,
+                                            'ip': ip
+                                        })
+                    except Exception as e:
+                        logging.error(f"Error al usar método alternativo para detectar interfaces: {e}")
+            
+            logging.info(f"Total de interfaces detectadas: {len(interfaces)}")
+                
+        except Exception as e:
+            logging.error(f"Error al obtener interfaces: {e}")
+            import traceback
+            logging.error(traceback.format_exc())
+            
+        return interfaces

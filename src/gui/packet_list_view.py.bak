@@ -1,0 +1,458 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Módulo para la vista de lista de paquetes
+"""
+
+import logging
+from PyQt5.QtWidgets import (QTreeWidget, QTreeWidgetItem, QHeaderView, 
+                           QMenu, QAction, QAbstractItemView)
+from PyQt5.QtGui import QColor, QBrush, QIcon
+from PyQt5.QtCore import Qt, pyqtSignal, QDateTime
+
+from utils.icons import get_icon_path
+from protocols.protocol_analyzer import ProtocolAnalyzer
+
+class PacketListView(QTreeWidget):
+    """Widget para mostrar la lista de paquetes capturados"""
+    
+    # Señal emitida cuando se selecciona un paquete
+    packetSelected = pyqtSignal(object)
+    
+    # Columnas
+    COL_NO = 0
+    COL_TIME = 1
+    COL_SOURCE = 2
+    COL_DESTINATION = 3
+    COL_PROTOCOL = 4
+    COL_LENGTH = 5
+    COL_INFO = 6
+    
+    def __init__(self, parent=None):
+        """Inicializa la vista de lista de paquetes
+        
+        Args:
+            parent: Widget padre
+        """
+        super().__init__(parent)
+        
+        # Lista de paquetes
+        self.packets = []
+        self.filtered_packets = []
+        self.current_filter = ""
+        
+        # Búfer para mejorar rendimiento
+        self.buffer_size = 100
+        self.packet_buffer = []
+        self.buffer_timer = None
+        
+        # Configuración de la vista
+        self.setup_ui()
+        
+        # Conectar señales
+        self.itemSelectionChanged.connect(self.on_selection_changed)
+        self.setContextMenuPolicy(Qt.CustomContextMenu)
+        self.customContextMenuRequested.connect(self.show_context_menu)
+        
+        # Iniciar temporizador para actualización por lotes
+        from PyQt5.QtCore import QTimer
+        self.buffer_timer = QTimer()
+        self.buffer_timer.setInterval(300)  # Actualizar cada 300ms
+        self.buffer_timer.timeout.connect(self.process_packet_buffer)
+        self.buffer_timer.start()
+        
+    def setup_ui(self):
+        """Configura la interfaz de usuario"""
+        # Configurar la vista de árbol
+        self.setRootIsDecorated(False)  # Sin árbol, solo lista
+        self.setSortingEnabled(True)
+        self.setAlternatingRowColors(True)
+        self.setSelectionMode(QAbstractItemView.SingleSelection)
+        self.setSelectionBehavior(QAbstractItemView.SelectRows)
+        self.setUniformRowHeights(True)
+        
+        # Configurar encabezados
+        self.setColumnCount(7)
+        self.setHeaderLabels([
+            "No.", "Tiempo", "Origen", "Destino", 
+            "Protocolo", "Longitud", "Información"
+        ])
+        
+        # Ajustar anchos de columna
+        header = self.header()
+        header.setStretchLastSection(True)
+        header.setSectionResizeMode(QHeaderView.Interactive)
+        
+        # Anchos iniciales
+        self.setColumnWidth(self.COL_NO, 60)
+        self.setColumnWidth(self.COL_TIME, 120)
+        self.setColumnWidth(self.COL_SOURCE, 150)
+        self.setColumnWidth(self.COL_DESTINATION, 150)
+        self.setColumnWidth(self.COL_PROTOCOL, 80)
+        self.setColumnWidth(self.COL_LENGTH, 80)
+        
+    def add_packet(self, packet):
+        """Añade un paquete a la lista
+        
+        Args:
+            packet: Objeto de paquete de Scapy
+        """
+        # Almacenar el paquete
+        self.packets.append(packet)
+        packet_index = len(self.packets) - 1
+        
+        # Añadir al búfer en lugar de procesar inmediatamente
+        self.packet_buffer.append((packet, packet_index))
+        
+        # Si el búfer está lleno, procesar inmediatamente
+        if len(self.packet_buffer) >= self.buffer_size:
+            self.process_packet_buffer()
+            
+    def process_packet_buffer(self):
+        """Procesa el búfer de paquetes acumulados para mejorar el rendimiento"""
+        if not self.packet_buffer:
+            return
+            
+        # Desactivar actualizaciones para mejorar rendimiento
+        self.setUpdatesEnabled(False)
+        
+        # Procesamiento por lotes
+        new_items = []
+        
+        for packet, packet_index in self.packet_buffer:
+            try:
+                # Extraer información básica del paquete
+                # Tiempo
+                timestamp = packet.time
+                time_str = QDateTime.fromSecsSinceEpoch(int(timestamp)).toString('hh:mm:ss.zzz')
+                
+                # Longitud
+                length = len(packet)
+                
+                # Información de protocolos
+                protocol, src, dst, info = self.extract_packet_info(packet)
+                
+                # Crear elemento para la lista
+                item = QTreeWidgetItem()
+                item.setText(self.COL_NO, str(packet_index + 1))
+                item.setText(self.COL_TIME, time_str)
+                item.setText(self.COL_SOURCE, src)
+                item.setText(self.COL_DESTINATION, dst)
+                item.setText(self.COL_PROTOCOL, protocol)
+                item.setText(self.COL_LENGTH, str(length))
+                item.setText(self.COL_INFO, info)
+                
+                # Guardar referencia al índice del paquete
+                item.setData(0, Qt.UserRole, packet_index)
+                
+                # Colorear según protocolo
+                self.color_item_by_protocol(item, protocol)
+                
+                # Añadir a la vista si pasa el filtro
+                if self.passes_filter(packet):
+                    self.filtered_packets.append(packet_index)
+                    new_items.append(item)
+                    
+            except Exception as e:
+                logging.error(f"Error al procesar paquete: {e}")
+        
+        # Añadir todos los items de una vez
+        if new_items:
+            self.addTopLevelItems(new_items)
+            
+        # Limpiar el búfer
+        self.packet_buffer = []
+        
+        # Reactivar actualizaciones
+        self.setUpdatesEnabled(True)
+            
+    def extract_packet_info(self, packet):
+        """Extrae información básica de un paquete
+        
+        Args:
+            packet: Objeto de paquete de Scapy
+            
+        Returns:
+            tuple: (protocolo, origen, destino, info)
+        """
+        try:
+            # Usar el analizador de protocolos para obtener información detallada
+            packet_summary = ProtocolAnalyzer.get_packet_summary(packet)
+            
+            protocol = packet_summary['protocol']
+            src = packet_summary['src'] or ""
+            dst = packet_summary['dst'] or ""
+            info = packet_summary['info'] or ""
+            
+            # Registrar información para depuración
+            logging.debug(f"Paquete detectado - Protocolo: {protocol}, Src: {src}, Dst: {dst}")
+            
+            return protocol, src, dst, info
+            
+        except Exception as e:
+            logging.error(f"Error al extraer información del paquete: {e}")
+            import traceback
+            logging.error(traceback.format_exc())
+            return "Error", "", "", f"Error al analizar paquete: {str(e)}"
+    
+    def color_item_by_protocol(self, item, protocol):
+        """Aplica un color al elemento según el protocolo
+        
+        Args:
+            item: QTreeWidgetItem a colorear
+            protocol: Protocolo del paquete
+        """
+        color = QColor(255, 255, 255)  # Blanco por defecto
+        
+        # Asignar colores según protocolo
+        if protocol == "TCP":
+            color = QColor(231, 230, 255)  # Azul claro
+        elif protocol == "UDP":
+            color = QColor(231, 255, 230)  # Verde claro
+        elif protocol == "ICMP":
+            color = QColor(255, 230, 230)  # Rojo claro
+        elif protocol == "HTTP":
+            color = QColor(255, 236, 209)  # Naranja claro
+        elif protocol == "DNS":
+            color = QColor(255, 255, 200)  # Amarillo claro
+        elif protocol == "ARP":
+            color = QColor(230, 255, 255)  # Cian claro
+        
+        # Aplicar el color
+        for i in range(self.columnCount()):
+            item.setBackground(i, QBrush(color))
+            
+    def on_selection_changed(self):
+        """Maneja el cambio de selección en la lista"""
+        try:
+            selected_items = self.selectedItems()
+            if not selected_items:
+                logging.debug("No hay elementos seleccionados")
+                return
+                
+            # Obtener el paquete seleccionado
+            item = selected_items[0]
+            packet_index = item.data(0, Qt.UserRole)
+            
+            if 0 <= packet_index < len(self.packets):
+                packet = self.packets[packet_index]
+                # Registro de depuración
+                logging.debug(f"Emitiendo señal packetSelected con paquete: {packet}")
+                # Emitir señal
+                self.packetSelected.emit(packet)
+            else:
+                logging.warning(f"Índice de paquete fuera de rango: {packet_index}, total paquetes: {len(self.packets)}")
+        except Exception as e:
+            import traceback
+            logging.error(f"Error en on_selection_changed: {e}")
+            logging.error(traceback.format_exc())
+            
+    def clear(self):
+        """Limpia la lista de paquetes"""
+        super().clear()
+        self.packets = []
+        self.filtered_packets = []
+        
+    def get_packets(self):
+        """Obtiene la lista de paquetes
+        
+        Returns:
+            list: Lista de paquetes
+        """
+        return self.packets
+        
+    def get_packet_count(self):
+        """Obtiene el número de paquetes
+        
+        Returns:
+            int: Número de paquetes
+        """
+        return len(self.packets)
+        
+    def apply_filter(self, filter_text):
+        """Aplica un filtro a la lista de paquetes
+        
+        Args:
+            filter_text (str): Texto del filtro a aplicar
+        """
+        self.current_filter = filter_text.lower()
+        self.filtered_packets = []
+        
+        # Limpiar vista
+        self.clear()
+        
+        # Aplicar filtro y añadir elementos que coincidan
+        for i, packet in enumerate(self.packets):
+            if self.passes_filter(packet):
+                self.filtered_packets.append(i)
+                
+                # Extraer información
+                timestamp = packet.time
+                time_str = QDateTime.fromSecsSinceEpoch(int(timestamp)).toString('hh:mm:ss.zzz')
+                length = len(packet)
+                protocol, src, dst, info = self.extract_packet_info(packet)
+                
+                # Crear elemento
+                item = QTreeWidgetItem()
+                item.setText(self.COL_NO, str(i + 1))
+                item.setText(self.COL_TIME, time_str)
+                item.setText(self.COL_SOURCE, src)
+                item.setText(self.COL_DESTINATION, dst)
+                item.setText(self.COL_PROTOCOL, protocol)
+                item.setText(self.COL_LENGTH, str(length))
+                item.setText(self.COL_INFO, info)
+                item.setData(0, Qt.UserRole, i)
+                
+                # Colorear
+                self.color_item_by_protocol(item, protocol)
+                
+                # Añadir a la vista
+                self.addTopLevelItem(item)
+                
+    def passes_filter(self, packet):
+        """Comprueba si un paquete pasa el filtro actual
+        
+        Args:
+            packet: Paquete a comprobar
+            
+        Returns:
+            bool: True si el paquete pasa el filtro, False en caso contrario
+        """
+        if not self.current_filter:
+            return True
+            
+        try:
+            # Extraer información del paquete
+            protocol, src, dst, info = self.extract_packet_info(packet)
+            
+            # Comprobar si algún campo coincide con el filtro
+            filter_text = self.current_filter.lower()
+            if (filter_text in protocol.lower() or
+                filter_text in src.lower() or
+                filter_text in dst.lower() or
+                filter_text in info.lower()):
+                return True
+                
+            # Filtros específicos
+            if filter_text.startswith("ip.addr==") and packet.haslayer('IP'):
+                ip_addr = filter_text.split("==")[1].strip()
+                ip_layer = packet.getlayer('IP')
+                return ip_layer.src == ip_addr or ip_layer.dst == ip_addr
+                
+            if filter_text.startswith("tcp.port==") and packet.haslayer('TCP'):
+                port = int(filter_text.split("==")[1].strip())
+                tcp_layer = packet.getlayer('TCP')
+                return tcp_layer.sport == port or tcp_layer.dport == port
+                
+            if filter_text.startswith("udp.port==") and packet.haslayer('UDP'):
+                port = int(filter_text.split("==")[1].strip())
+                udp_layer = packet.getlayer('UDP')
+                return udp_layer.sport == port or udp_layer.dport == port
+                
+            # Si no coincide con ningún filtro
+            return False
+            
+        except Exception as e:
+            logging.error(f"Error al aplicar filtro: {e}")
+            return False
+            
+    def save_packets(self, filename):
+        """Guarda los paquetes en un archivo pcap
+        
+        Args:
+            filename (str): Nombre del archivo donde guardar
+        """
+        from scapy.utils import wrpcap
+        
+        try:
+            # Guardar todos los paquetes o solo los filtrados
+            if self.filtered_packets and len(self.filtered_packets) < len(self.packets):
+                packets_to_save = [self.packets[i] for i in self.filtered_packets]
+                wrpcap(filename, packets_to_save)
+            else:
+                wrpcap(filename, self.packets)
+                
+            logging.info(f"Paquetes guardados en {filename}")
+            
+        except Exception as e:
+            logging.error(f"Error al guardar paquetes: {e}")
+            raise
+            
+    def load_packets(self, filename):
+        """Carga paquetes desde un archivo pcap
+        
+        Args:
+            filename (str): Nombre del archivo a cargar
+        """
+        from scapy.utils import rdpcap
+        
+        try:
+            # Leer paquetes
+            packets = rdpcap(filename)
+            
+            # Añadir cada paquete a la lista
+            for packet in packets:
+                self.add_packet(packet)
+                
+            logging.info(f"Paquetes cargados desde {filename}")
+            
+        except Exception as e:
+            logging.error(f"Error al cargar paquetes: {e}")
+            raise
+            
+    def show_context_menu(self, position):
+        """Muestra el menú contextual
+        
+        Args:
+            position: Posición donde mostrar el menú
+        """
+        item = self.itemAt(position)
+        if not item:
+            return
+            
+        # Crear menú
+        menu = QMenu(self)
+        
+        # Acciones
+        action_follow_stream = QAction("Seguir flujo TCP/UDP", self)
+        action_follow_stream.triggered.connect(lambda: self.follow_stream(item))
+        menu.addAction(action_follow_stream)
+        
+        action_copy_value = QAction("Copiar valor", self)
+        action_copy_value.triggered.connect(lambda: self.copy_cell_value(item))
+        menu.addAction(action_copy_value)
+        
+        action_apply_as_filter = QAction("Aplicar como filtro", self)
+        action_apply_as_filter.triggered.connect(lambda: self.apply_as_filter(item))
+        menu.addAction(action_apply_as_filter)
+        
+        # Mostrar menú
+        menu.exec_(self.viewport().mapToGlobal(position))
+        
+    def follow_stream(self, item):
+        """Sigue el flujo TCP/UDP del paquete seleccionado
+        
+        Args:
+            item: Elemento seleccionado
+        """
+        # Implementación de seguimiento de flujo
+        pass
+        
+    def copy_cell_value(self, item):
+        """Copia el valor de la celda seleccionada
+        
+        Args:
+            item: Elemento seleccionado
+        """
+        # Implementación de copia de valor
+        pass
+        
+    def apply_as_filter(self, item):
+        """Aplica el valor como filtro
+        
+        Args:
+            item: Elemento seleccionado
+        """
+        # Implementación de aplicación como filtro
+        pass

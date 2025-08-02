@@ -1,0 +1,495 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Módulo para la vista de lista de paquetes
+"""
+
+import logging
+from PyQt5.QtWidgets import (QTreeWidget, QTreeWidgetItem, QHeaderView, 
+                           QMenu, QAction, QAbstractItemView)
+from PyQt5.QtGui import QColor, QBrush, QIcon
+from PyQt5.QtCore import Qt, pyqtSignal, QDateTime, QTimer
+
+from utils.icons import get_icon_path
+from protocols.protocol_analyzer import ProtocolAnalyzer
+
+class PacketListView(QTreeWidget):
+    """Widget para mostrar la lista de paquetes capturados"""
+    
+    # Señal emitida cuando se selecciona un paquete
+    packetSelected = pyqtSignal(object)
+    
+    # Columnas
+    COL_NO = 0
+    COL_TIME = 1
+    COL_SOURCE = 2
+    COL_DESTINATION = 3
+    COL_PROTOCOL = 4
+    COL_LENGTH = 5
+    COL_INFO = 6
+    
+    def __init__(self, parent=None):
+        """Inicializa la vista de lista de paquetes
+        
+        Args:
+            parent: Widget padre
+        """
+        super().__init__(parent)
+        
+        # Lista de paquetes
+        self.packets = []
+        self.filtered_packets = []
+        self.current_filter = ""
+        
+        # Búfer para mejorar rendimiento
+        self.buffer_size = 100
+        self.packet_buffer = []
+        self.buffer_timer = None
+        
+        # Configuración de la vista
+        self.setup_ui()
+        
+        # Conectar señales
+        self.itemSelectionChanged.connect(self.on_selection_changed)
+        self.setContextMenuPolicy(Qt.CustomContextMenu)
+        self.customContextMenuRequested.connect(self.show_context_menu)
+        
+        # Iniciar temporizador para actualización por lotes
+        self.buffer_timer = QTimer()
+        self.buffer_timer.setInterval(300)  # Actualizar cada 300ms
+        self.buffer_timer.timeout.connect(self.process_packet_buffer)
+        self.buffer_timer.start()
+        
+    def setup_ui(self):
+        """Configura la interfaz de usuario"""
+        # Configurar la vista de árbol
+        self.setRootIsDecorated(False)  # Sin árbol, solo lista
+        self.setSortingEnabled(True)
+        self.setAlternatingRowColors(True)
+        self.setSelectionMode(QAbstractItemView.SingleSelection)
+        self.setSelectionBehavior(QAbstractItemView.SelectRows)
+        self.setUniformRowHeights(True)
+        
+        # Configurar encabezados
+        self.setColumnCount(7)
+        self.setHeaderLabels([
+            "No.", "Tiempo", "Origen", "Destino", 
+            "Protocolo", "Longitud", "Información"
+        ])
+        
+        # Ajustar anchos de columna
+        header = self.header()
+        header.setStretchLastSection(True)
+        header.setSectionResizeMode(QHeaderView.Interactive)
+        
+        # Anchos iniciales
+        self.setColumnWidth(self.COL_NO, 60)
+        self.setColumnWidth(self.COL_TIME, 120)
+        self.setColumnWidth(self.COL_SOURCE, 150)
+        self.setColumnWidth(self.COL_DESTINATION, 150)
+        self.setColumnWidth(self.COL_PROTOCOL, 80)
+        self.setColumnWidth(self.COL_LENGTH, 80)
+        
+    def add_packet(self, packet):
+        """Añade un paquete a la lista
+        
+        Args:
+            packet: Objeto de paquete de Scapy
+        """
+        # Almacenar el paquete
+        self.packets.append(packet)
+        packet_index = len(self.packets) - 1
+        
+        # Añadir al búfer en lugar de procesar inmediatamente
+        self.packet_buffer.append((packet, packet_index))
+        
+        # Si el búfer está lleno, procesar inmediatamente
+        if len(self.packet_buffer) >= self.buffer_size:
+            self.process_packet_buffer()
+            
+    def process_packet_buffer(self):
+        """Procesa el búfer de paquetes acumulados para mejorar el rendimiento"""
+        if not self.packet_buffer:
+            return
+            
+        # Desactivar actualizaciones para mejorar rendimiento
+        self.setUpdatesEnabled(False)
+        
+        # Procesamiento por lotes
+        new_items = []
+        
+        for packet, packet_index in self.packet_buffer:
+            try:
+                # Extraer información básica del paquete
+                # Tiempo
+                timestamp = packet.time
+                time_str = QDateTime.fromSecsSinceEpoch(int(timestamp)).toString('hh:mm:ss.zzz')
+                
+                # Longitud
+                length = len(packet)
+                
+                # Información de protocolos
+                protocol, src, dst, info = self.extract_packet_info(packet)
+                
+                # Crear elemento para la lista
+                item = QTreeWidgetItem()
+                item.setText(self.COL_NO, str(packet_index + 1))
+                item.setText(self.COL_TIME, time_str)
+                item.setText(self.COL_SOURCE, src)
+                item.setText(self.COL_DESTINATION, dst)
+                item.setText(self.COL_PROTOCOL, protocol)
+                item.setText(self.COL_LENGTH, str(length))
+                item.setText(self.COL_INFO, info)
+                
+                # Guardar referencia al índice del paquete
+                item.setData(0, Qt.UserRole, packet_index)
+                
+                # Colorear según protocolo
+                self.color_item_by_protocol(item, protocol)
+                
+                # Añadir a la vista si pasa el filtro
+                if self.passes_filter(packet):
+                    self.filtered_packets.append(packet_index)
+                    new_items.append(item)
+                    
+            except Exception as e:
+                logging.error(f"Error al procesar paquete: {e}")
+        
+        # Añadir todos los items de una vez
+        if new_items:
+            self.addTopLevelItems(new_items)
+            
+        # Limpiar el búfer
+        self.packet_buffer = []
+        
+        # Reactivar actualizaciones
+        self.setUpdatesEnabled(True)
+    
+    def extract_packet_info(self, packet):
+        """Extrae información básica de un paquete
+        
+        Args:
+            packet: Objeto de paquete de Scapy
+            
+        Returns:
+            tuple: (protocolo, origen, destino, info)
+        """
+        try:
+            # Usar el analizador de protocolos para obtener información detallada
+            packet_summary = ProtocolAnalyzer.get_packet_summary(packet)
+            
+            protocol = packet_summary['protocol']
+            src = packet_summary['src'] or ""
+            dst = packet_summary['dst'] or ""
+            info = packet_summary['info'] or ""
+            
+            # Registrar información para depuración
+            logging.debug(f"Paquete detectado - Protocolo: {protocol}, Src: {src}, Dst: {dst}")
+            
+            return protocol, src, dst, info
+            
+        except Exception as e:
+            logging.error(f"Error al extraer información del paquete: {e}")
+            import traceback
+            logging.error(traceback.format_exc())
+            return "Error", "", "", f"Error al analizar paquete: {str(e)}"
+    
+    def color_item_by_protocol(self, item, protocol):
+        """Aplica un color al elemento según el protocolo
+        
+        Args:
+            item: QTreeWidgetItem a colorear
+            protocol: Protocolo del paquete
+        """
+        color = QColor(255, 255, 255)  # Blanco por defecto
+        
+        # Asignar colores según protocolo
+        if protocol == "TCP":
+            color = QColor(231, 230, 255)  # Azul claro
+        elif protocol == "UDP":
+            color = QColor(231, 255, 230)  # Verde claro
+        elif protocol == "ICMP":
+            color = QColor(255, 230, 230)  # Rojo claro
+        elif protocol == "HTTP":
+            color = QColor(255, 236, 209)  # Naranja claro
+        elif protocol == "DNS":
+            color = QColor(255, 255, 200)  # Amarillo claro
+        elif protocol == "ARP":
+            color = QColor(230, 255, 255)  # Cian claro
+        
+        # Aplicar el color
+        for i in range(self.columnCount()):
+            item.setBackground(i, QBrush(color))
+            
+    def on_selection_changed(self):
+        """Maneja el cambio de selección en la lista"""
+        selected_items = self.selectedItems()
+        if not selected_items:
+            return
+            
+        # Obtener el paquete seleccionado
+        item = selected_items[0]
+        packet_index = item.data(0, Qt.UserRole)
+        
+        if 0 <= packet_index < len(self.packets):
+            packet = self.packets[packet_index]
+            self.packetSelected.emit(packet)
+        
+    def clear(self):
+        """Limpia la lista de paquetes"""
+        # Limpiar estructuras de datos
+        self.packets = []
+        self.filtered_packets = []
+        self.packet_buffer = []
+        
+        # Limpiar vista usando el método de la clase padre
+        super().clear()
+        
+    def apply_filter(self, filter_text):
+        """Aplica un filtro a la lista de paquetes
+        
+        Args:
+            filter_text (str): Texto del filtro a aplicar
+        """
+        self.current_filter = filter_text.lower()
+        self.filter_packets()
+        
+    def filter_packets(self):
+        """Filtra los paquetes según el filtro actual"""
+        # Si no hay filtro, mostrar todos
+        if not self.current_filter:
+            self.filtered_packets = list(range(len(self.packets)))
+            self.refresh()
+            return
+            
+        # Aplicar filtro
+        self.filtered_packets = []
+        
+        for i, packet in enumerate(self.packets):
+            if self.passes_filter(packet):
+                self.filtered_packets.append(i)
+                
+        self.refresh()
+        
+    def passes_filter(self, packet):
+        """Determina si un paquete pasa el filtro
+        
+        Args:
+            packet: Objeto de paquete de Scapy
+            
+        Returns:
+            bool: True si pasa el filtro, False en caso contrario
+        """
+        # Si no hay filtro, aceptar todos los paquetes
+        if not self.current_filter or not self.current_filter.strip():
+            return True
+            
+        try:
+            # Usar el gestor de filtros para evaluar el paquete
+            if not hasattr(self, 'filter_manager'):
+                # Importación tardía para evitar dependencia circular
+                from utils.filter_manager import FilterManager
+                self.filter_manager = FilterManager()
+            
+            # Control de tiempo para evitar bloqueos
+            import threading
+            import time
+            
+            # Usar un resultado compartido entre hilos
+            result = [True]  # Por defecto aceptamos el paquete
+            filter_complete = [False]  # Flag para indicar si se completó
+            
+            # Función que realiza el filtrado con límite de tiempo
+            def apply_filter_with_timeout():
+                try:
+                    result[0] = self.filter_manager.apply_filter(packet, self.current_filter)
+                    filter_complete[0] = True
+                except Exception as e:
+                    logging.error(f"Error al aplicar filtro: {e}")
+                    result[0] = True  # En caso de error, mostrar el paquete
+                    filter_complete[0] = True
+            
+            # Crear y ejecutar el hilo con tiempo límite
+            filter_thread = threading.Thread(target=apply_filter_with_timeout)
+            filter_thread.daemon = True
+            filter_thread.start()
+            
+            # Esperar un tiempo máximo
+            start_time = time.time()
+            while not filter_complete[0] and time.time() - start_time < 0.1:
+                time.sleep(0.01)  # 10ms
+            
+            # Si no se completó, mostrar mensaje y mostrar el paquete
+            if not filter_complete[0]:
+                logging.warning(f"El filtro '{self.current_filter}' está tomando demasiado tiempo, se muestra el paquete")
+                from PyQt5.QtWidgets import QMessageBox
+                QMessageBox.warning(None, "Error al aplicar el filtro",
+                                  f"El filtro '{self.current_filter}' está causando problemas de rendimiento.\n\n"
+                                  f"Esto podría ser debido a una expresión de filtro compleja o incorrecta.\n\n"
+                                  f"Se mostrará el paquete y se recomienda usar un filtro más simple.")
+                return True
+                
+            return result[0]
+                
+        except Exception as e:
+            logging.error(f"Error al filtrar paquete: {e}")
+            logging.error(f"Filtro: {self.current_filter}")
+            import traceback
+            logging.error(traceback.format_exc())
+            return True  # En caso de error, mostrar el paquete por defecto
+            
+    def refresh(self):
+        """Actualiza la vista según los filtros actuales"""
+        # Limpiar vista
+        self.clear()
+        
+        # Añadir solo los paquetes filtrados
+        items = []
+        for packet_index in self.filtered_packets:
+            try:
+                packet = self.packets[packet_index]
+                
+                # Extraer información básica del paquete
+                timestamp = packet.time
+                time_str = QDateTime.fromSecsSinceEpoch(int(timestamp)).toString('hh:mm:ss.zzz')
+                
+                # Longitud
+                length = len(packet)
+                
+                # Información de protocolos
+                protocol, src, dst, info = self.extract_packet_info(packet)
+                
+                # Crear elemento para la lista
+                item = QTreeWidgetItem()
+                item.setText(self.COL_NO, str(packet_index + 1))
+                item.setText(self.COL_TIME, time_str)
+                item.setText(self.COL_SOURCE, src)
+                item.setText(self.COL_DESTINATION, dst)
+                item.setText(self.COL_PROTOCOL, protocol)
+                item.setText(self.COL_LENGTH, str(length))
+                item.setText(self.COL_INFO, info)
+                
+                # Guardar referencia al índice del paquete
+                item.setData(0, Qt.UserRole, packet_index)
+                
+                # Colorear según protocolo
+                self.color_item_by_protocol(item, protocol)
+                
+                items.append(item)
+                
+            except Exception as e:
+                logging.error(f"Error al refrescar vista: {e}")
+                
+        # Añadir todos los elementos de una vez
+        self.addTopLevelItems(items)
+        
+    def show_context_menu(self, position):
+        """Muestra el menú contextual
+        
+        Args:
+            position: Posición del cursor
+        """
+        selected_items = self.selectedItems()
+        if not selected_items:
+            return
+            
+        # Crear menú contextual
+        context_menu = QMenu()
+        
+        # Acciones comunes
+        action_follow_stream = QAction("Seguir flujo TCP/UDP", self)
+        action_follow_stream.triggered.connect(self.follow_stream)
+        context_menu.addAction(action_follow_stream)
+        
+        action_copy_as_hex = QAction("Copiar como hexadecimal", self)
+        action_copy_as_hex.triggered.connect(self.copy_as_hex)
+        context_menu.addAction(action_copy_as_hex)
+        
+        # Acciones específicas según protocolo
+        item = selected_items[0]
+        packet_index = item.data(0, Qt.UserRole)
+        
+        if 0 <= packet_index < len(self.packets):
+            packet = self.packets[packet_index]
+            protocol = item.text(self.COL_PROTOCOL)
+            
+            # Acciones para HTTP
+            if protocol == "HTTP":
+                context_menu.addSeparator()
+                action_view_headers = QAction("Ver cabeceras HTTP", self)
+                action_view_headers.triggered.connect(lambda: self.view_http_headers(packet))
+                context_menu.addAction(action_view_headers)
+            
+            # Acciones para DNS
+            elif protocol == "DNS":
+                context_menu.addSeparator()
+                action_view_dns = QAction("Ver consulta DNS", self)
+                action_view_dns.triggered.connect(lambda: self.view_dns_details(packet))
+                context_menu.addAction(action_view_dns)
+        
+        # Mostrar menú
+        context_menu.exec_(self.mapToGlobal(position))
+        
+    def follow_stream(self):
+        """Sigue un flujo TCP/UDP"""
+        selected_items = self.selectedItems()
+        if not selected_items:
+            return
+            
+        item = selected_items[0]
+        packet_index = item.data(0, Qt.UserRole)
+        
+        if 0 <= packet_index < len(self.packets):
+            packet = self.packets[packet_index]
+            # Implementar lógica de seguimiento de flujo
+            logging.info("Función de seguimiento de flujo no implementada")
+            
+    def copy_as_hex(self):
+        """Copia el paquete seleccionado como hexadecimal"""
+        selected_items = self.selectedItems()
+        if not selected_items:
+            return
+            
+        item = selected_items[0]
+        packet_index = item.data(0, Qt.UserRole)
+        
+        if 0 <= packet_index < len(self.packets):
+            packet = self.packets[packet_index]
+            # Implementar copia como hexadecimal
+            logging.info("Función de copia como hexadecimal no implementada")
+            
+    def view_http_headers(self, packet):
+        """Muestra las cabeceras HTTP de un paquete
+        
+        Args:
+            packet: Objeto de paquete de Scapy
+        """
+        # Implementar visualización de cabeceras HTTP
+        logging.info("Función de visualización de cabeceras HTTP no implementada")
+        
+    def view_dns_details(self, packet):
+        """Muestra los detalles de una consulta DNS
+        
+        Args:
+            packet: Objeto de paquete de Scapy
+        """
+        # Implementar visualización de detalles DNS
+        logging.info("Función de visualización de detalles DNS no implementada")
+        
+    def get_packets(self):
+        """Retorna la lista de paquetes capturados
+        
+        Returns:
+            list: Lista de objetos de paquetes de Scapy
+        """
+        try:
+            if hasattr(self, 'packets') and self.packets:
+                logging.info(f"Devolviendo {len(self.packets)} paquetes para estadísticas")
+                return list(self.packets)  # Devolver una copia para evitar modificaciones
+            else:
+                logging.warning("No hay paquetes disponibles para estadísticas")
+                return []
+        except Exception as e:
+            logging.error(f"Error al obtener paquetes: {e}")
+            return []

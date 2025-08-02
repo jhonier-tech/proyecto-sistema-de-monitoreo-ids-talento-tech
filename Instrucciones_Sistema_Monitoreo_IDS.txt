@@ -1,0 +1,164 @@
+# INSTRUCCIONES DE USO - SISTEMA DE MONITOREO IDS
+==================================================
+
+## REQUISITOS PREVIOS
+--------------------
+1. Python 3.8 o superior instalado
+2. Paquetes necesarios:
+   - Scapy
+   - PyQt5
+   - PyQtGraph
+   - Matplotlib
+   - Pandas
+3. En Windows: Npcap o WinPcap instalado
+4. Permisos de administrador para capturar paquetes
+
+## INSTALACIÓN
+-------------
+1. Clonar o descargar el repositorio:
+   ```
+   git clone https://github.com/[usuario]/sistema-monitoreo-ids.git
+   ```
+
+2. Instalar dependencias:
+   ```
+   cd sistema-monitoreo-ids
+   pip install -r requirements.txt
+   ```
+
+3. Verificar instalación:
+   ```
+   python tools/verificar_dependencias.py
+   ```
+
+## INICIO RÁPIDO
+---------------
+1. Ejecutar en la raiz:
+   ```
+   python src/main.py
+   ```
+
+2. Seleccionar interfaz de red:
+   - Menú "Captura" > "Interfaces"
+   - Seleccionar la interfaz a monitorizar
+   - Hacer clic en "Aceptar"
+
+3. Iniciar captura:
+   - Hacer clic en el botón "Iniciar captura" (triángulo verde)
+   - O usar Menú "Captura" > "Iniciar"
+
+4. Detener captura:
+   - Hacer clic en el botón "Detener captura" (cuadrado rojo)
+   - O usar Menú "Captura" > "Detener"
+
+## FUNCIONES BÁSICAS
+------------------
+### Filtrado de paquetes
+- Introducir expresión de filtro en la barra de filtros superior
+- Ejemplos:
+  * `tcp` - Mostrar solo paquetes TCP
+  * `ip.src == 192.168.1.1` - Paquetes desde esa IP
+  * `tcp.port == 80` - Tráfico HTTP
+  * `!arp` - Excluir paquetes ARP
+
+### Análisis de paquetes
+- Hacer clic en un paquete para ver sus detalles
+- Panel superior: Lista de paquetes
+- Panel medio: Detalles estructurados del paquete seleccionado
+- Panel inferior: Vista hexadecimal del paquete
+
+### Estadísticas
+- Menú "Estadísticas" para ver análisis gráficos
+- Opciones disponibles:
+  * Distribución de protocolos
+  * Tráfico por dirección IP
+  * Distribución de puertos
+  * Evolución temporal
+  * Tamaño de paquetes
+
+### Alertas de seguridad
+- Las alertas aparecen automáticamente en el panel de alertas
+- Menú "Seguridad" > "Ver alertas" para panel completo
+- Configurar sensibilidad: "Archivo" > "Preferencias" > "Alertas"
+
+### Guardar capturas
+- Menú "Archivo" > "Guardar captura"
+- Formato estándar .pcap compatible con otras herramientas
+- Opción para guardar solo paquetes filtrados
+
+## ATAJOS DE TECLADO
+------------------
+- Ctrl+I: Seleccionar interfaz
+- Ctrl+S: Guardar captura
+- Ctrl+O: Abrir captura
+- Ctrl+B: Iniciar/Detener captura
+- Ctrl+F: Enfocar barra de filtros
+- Ctrl+R: Limpiar filtro actual
+- F5: Actualizar vista
+- F1: Ayuda
+
+## CONSEJOS ÚTILES
+----------------
+1. Usar filtros para reducir la carga visual en capturas intensas
+2. Utilizar el menú contextual (clic derecho) para acciones específicas
+3. Configurar preferencias para optimizar rendimiento según recursos
+4. Aprovechar vistas estadísticas para identificar patrones anómalos
+5. Utilizar "Seguir flujo TCP/UDP" para analizar conversaciones completas
+6. Revisar regularmente el panel de alertas para identificar amenazas
+7. Guardar capturas importantes para análisis posterior o evidencia
+8. Usar modo optimizado en equipos con recursos limitados
+
+## RESOLUCIÓN DE PROBLEMAS
+------------------------
+### No se puede iniciar la captura
+- Verificar permisos de administrador
+- Comprobar que la interfaz seleccionada está activa
+- En Windows, asegurar que Npcap está correctamente instalado
+
+### Aplicación lenta con muchos paquetes
+- Utilizar filtros más restrictivos
+- Reducir el tiempo de captura
+- Activar modo optimizado en preferencias
+- Incrementar intervalo de actualización
+
+### Errores al analizar ciertos paquetes
+- Verificar que Scapy está actualizado
+- Comprobar si hay extensiones específicas necesarias
+- Revisar el log para detalles del error
+
+### Filtros no funcionan correctamente
+- Verificar sintaxis del filtro
+- Consultar documentación para expresiones complejas
+- Usar filtros predefinidos para entender la sintaxis correcta
+
+## SOPORTE Y AYUDA
+----------------
+- Documentación completa: Menú "Ayuda" > "Ayuda del Sistema de monitoreo IDS"
+- Reportar problemas: https://github.com/[usuario]/sistema-monitoreo-ids/issues
+- Comunidad y soporte: [foro/grupo/email]
+
+## ADVERTENCIAS DE SEGURIDAD
+--------------------------
+1. Utilizar esta herramienta solo en redes donde tenga autorización
+2. La captura de paquetes puede requerir privilegios especiales
+3. No utilizar en entornos críticos sin la debida validación
+4. Implementar medidas adicionales de seguridad más allá de esta herramienta
+5. Mantener la aplicación y sus dependencias actualizadas
+
+## ACTUALIZACIONES
+---------------
+Para actualizar a la última versión:
+```
+git pull origin main
+pip install -r requirements.txt --upgrade
+```
+
+## DESINSTALACIÓN
+---------------
+Para desinstalar completamente:
+1. Eliminar el directorio del proyecto
+2. Opcionalmente, desinstalar dependencias Python:
+   ```
+   pip uninstall scapy pyqt5 pyqtgraph matplotlib pandas
+   ```
+3. En Windows, puede desinstalar Npcap si no lo necesita para otras aplicaciones

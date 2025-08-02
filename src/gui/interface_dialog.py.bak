@@ -1,0 +1,163 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Módulo para el diálogo de selección de interfaz de red
+"""
+
+import logging
+from PyQt5.QtWidgets import (QDialog, QVBoxLayout, QHBoxLayout, QTableWidget, 
+                           QTableWidgetItem, QPushButton, QLabel, QHeaderView,
+                           QAbstractItemView, QMessageBox)
+from PyQt5.QtGui import QFont, QIcon
+from PyQt5.QtCore import Qt
+
+from capture.packet_capturer import PacketCapturer
+from utils.icons import get_icon_path
+
+class InterfaceDialog(QDialog):
+    """Diálogo para seleccionar una interfaz de red"""
+    
+    def __init__(self, parent=None):
+        """Inicializa el diálogo de selección de interfaz
+        
+        Args:
+            parent: Widget padre
+        """
+        super().__init__(parent)
+        
+        # Configurar ventana
+        self.setWindowTitle("Seleccionar Interfaz")
+        self.setWindowIcon(QIcon(get_icon_path("interface")))
+        self.resize(600, 400)
+        
+        # Variables
+        self.interfaces = []
+        self.selected_interface = None
+        
+        # Configurar interfaz
+        self.setup_ui()
+        
+        # Cargar interfaces
+        self.load_interfaces()
+        
+    def setup_ui(self):
+        """Configura la interfaz de usuario"""
+        # Layout principal
+        layout = QVBoxLayout(self)
+        
+        # Etiqueta de instrucciones
+        label = QLabel("Seleccione la interfaz de red para capturar paquetes:")
+        layout.addWidget(label)
+        
+        # Tabla de interfaces
+        self.table = QTableWidget()
+        self.table.setColumnCount(4)
+        self.table.setHorizontalHeaderLabels(["Nombre", "Descripción", "Dirección MAC", "Dirección IP"])
+        self.table.setEditTriggers(QAbstractItemView.NoEditTriggers)
+        self.table.setSelectionBehavior(QAbstractItemView.SelectRows)
+        self.table.setSelectionMode(QAbstractItemView.SingleSelection)
+        self.table.horizontalHeader().setSectionResizeMode(1, QHeaderView.Stretch)
+        self.table.horizontalHeader().setStretchLastSection(True)
+        self.table.verticalHeader().setVisible(False)
+        self.table.setAlternatingRowColors(True)
+        
+        # Ajustar anchos de columna
+        self.table.setColumnWidth(0, 120)
+        self.table.setColumnWidth(2, 150)
+        self.table.setColumnWidth(3, 120)
+        
+        layout.addWidget(self.table)
+        
+        # Botones
+        button_layout = QHBoxLayout()
+        
+        self.refresh_button = QPushButton("Actualizar")
+        self.refresh_button.clicked.connect(self.load_interfaces)
+        button_layout.addWidget(self.refresh_button)
+        
+        button_layout.addStretch()
+        
+        self.cancel_button = QPushButton("Cancelar")
+        self.cancel_button.clicked.connect(self.reject)
+        button_layout.addWidget(self.cancel_button)
+        
+        self.ok_button = QPushButton("Aceptar")
+        self.ok_button.setDefault(True)
+        self.ok_button.clicked.connect(self.accept)
+        button_layout.addWidget(self.ok_button)
+        
+        layout.addLayout(button_layout)
+        
+    def load_interfaces(self):
+        """Carga la lista de interfaces de red disponibles"""
+        try:
+            # Obtener interfaces
+            self.interfaces = PacketCapturer.get_interfaces()
+            
+            # Actualizar tabla
+            self.table.setRowCount(len(self.interfaces))
+            
+            for i, iface in enumerate(self.interfaces):
+                # Nombre
+                name_item = QTableWidgetItem(iface['name'])
+                self.table.setItem(i, 0, name_item)
+                
+                # Descripción
+                desc_item = QTableWidgetItem(iface['description'])
+                self.table.setItem(i, 1, desc_item)
+                
+                # MAC
+                mac_item = QTableWidgetItem(iface['mac'])
+                self.table.setItem(i, 2, mac_item)
+                
+                # IP
+                ip_item = QTableWidgetItem(iface['ip'])
+                self.table.setItem(i, 3, ip_item)
+                
+            # Seleccionar primera fila
+            if self.table.rowCount() > 0:
+                self.table.selectRow(0)
+                
+        except Exception as e:
+            logging.error(f"Error al cargar interfaces: {e}")
+            QMessageBox.warning(self, "Error", f"No se pudieron cargar las interfaces: {str(e)}")
+            
+    def accept(self):
+        """Maneja la aceptación del diálogo"""
+        # Obtener interfaz seleccionada
+        selected_rows = self.table.selectionModel().selectedRows()
+        if not selected_rows:
+            QMessageBox.warning(self, "Error", "Por favor, seleccione una interfaz")
+            return
+            
+        row = selected_rows[0].row()
+        self.selected_interface = self.interfaces[row]['name']
+        self.selected_interface_desc = self.interfaces[row]['description']
+        self.selected_interface_full = f"{self.interfaces[row]['name']} - {self.interfaces[row]['description']}"
+        
+        super().accept()
+        
+    def get_selected_interface(self):
+        """Obtiene la interfaz seleccionada
+        
+        Returns:
+            str: Nombre de la interfaz seleccionada
+        """
+        return self.selected_interface
+        
+    def get_selected_interface_description(self):
+        """Obtiene la descripción de la interfaz seleccionada
+        
+        Returns:
+            str: Descripción de la interfaz seleccionada
+        """
+        return self.selected_interface_desc
+        
+    def get_selected_interface_full(self):
+        """Obtiene el nombre completo de la interfaz seleccionada
+        
+        Returns:
+            str: Nombre completo de la interfaz (nombre + descripción)
+        """
+        return self.selected_interface_full

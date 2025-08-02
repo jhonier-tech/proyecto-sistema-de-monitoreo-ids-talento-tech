@@ -1,0 +1,1463 @@
+2025-08-02 09:23:15 [INFO] - Logger inicializado (Windows 10)
+2025-08-02 09:23:15 [INFO] - Sistema de monitoreo IDS iniciado en modo normal
+2025-08-02 09:23:15 [INFO] - Sistema operativo detectado: Windows 10 (64bit)
+2025-08-02 09:23:15 [INFO] - Se encontraron 14 interfaces de red
+2025-08-02 09:23:15 [INFO] - Compatibilidad WinPcap OK - La captura de paquetes ICMP debería funcionar
+2025-08-02 09:23:17 [INFO] - Tema claro aplicado
+2025-08-02 09:23:17 [INFO] - Tema claro aplicado
+2025-08-02 09:41:14 [INFO] - Logger inicializado (Windows 10)
+2025-08-02 09:41:14 [INFO] - Sistema de monitoreo IDS iniciado en modo normal
+2025-08-02 09:41:14 [INFO] - Sistema operativo detectado: Windows 10 (64bit)
+2025-08-02 09:41:14 [INFO] - Se encontraron 14 interfaces de red
+2025-08-02 09:41:14 [INFO] - Compatibilidad WinPcap OK - La captura de paquetes ICMP debería funcionar
+2025-08-02 09:41:17 [INFO] - Tema claro aplicado
+2025-08-02 09:41:17 [INFO] - Tema claro aplicado
+2025-08-02 09:41:36 [INFO] - Interfaz seleccionada: \Device\NPF_{089A27A5-ACF2-4F67-B4FA-1CD3F4C1C92E} - Realtek RTL8723DE 802.11b/g/n PCIe Adapter
+2025-08-02 09:41:36 [INFO] - Interfaz seleccionada para captura: \Device\NPF_{089A27A5-ACF2-4F67-B4FA-1CD3F4C1C92E} - Realtek RTL8723DE 802.11b/g/n PCIe Adapter
+2025-08-02 09:41:38 [INFO] - Creando capturer para interfaz: \Device\NPF_{089A27A5-ACF2-4F67-B4FA-1CD3F4C1C92E}
+2025-08-02 09:41:38 [INFO] - Usando modo de captura por lotes (optimizado)
+2025-08-02 09:41:38 [INFO] - Filtro actual: ''
+2025-08-02 09:41:38 [INFO] - Captura iniciada en interfaz: \Device\NPF_{089A27A5-ACF2-4F67-B4FA-1CD3F4C1C92E}
+2025-08-02 09:41:38 [INFO] - Captura iniciada correctamente
+2025-08-02 09:41:38 [INFO] - Paquete #1 capturado: Ethernet, IP, TCP - 676 bytes
+2025-08-02 09:41:38 [INFO] - Paquete #2 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:38 [INFO] - ALERTA Medio: PING - IP: 192.168.137.118 - SO: Windows - Ping detectado desde sistema Windows (posible reconocimiento) (TTL: 64)
+2025-08-02 09:41:38 [INFO] - Paquete #3 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:38 [INFO] - Paquete #4 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 09:41:38 [INFO] - Paquete #5 capturado: Ethernet, IP, TCP - 1514 bytes
+2025-08-02 09:41:38 [INFO] - Paquete #6 capturado: Ethernet, IP, TCP - 66 bytes
+2025-08-02 09:41:38 [INFO] - Paquete #7 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 09:41:38 [INFO] - Paquete #8 capturado: Ethernet, IP, TCP - 1107 bytes
+2025-08-02 09:41:38 [INFO] - Paquete #9 capturado: Ethernet, IP, TCP - 1107 bytes
+2025-08-02 09:41:38 [INFO] - Paquete #10 capturado: Ethernet, IP, TCP - 1107 bytes
+2025-08-02 09:41:38 [INFO] - Paquete #11 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 09:41:38 [INFO] - Paquete #12 capturado: Ethernet, IP, TCP - 1107 bytes
+2025-08-02 09:41:38 [INFO] - Paquete #13 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 09:41:38 [INFO] - Paquete #14 capturado: Ethernet, IP, TCP - 1107 bytes
+2025-08-02 09:41:38 [INFO] - Paquete #15 capturado: Ethernet, IP, TCP - 1107 bytes
+2025-08-02 09:41:38 [INFO] - Paquete #16 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 09:41:38 [INFO] - Paquete #17 capturado: Ethernet, IP, TCP - 1107 bytes
+2025-08-02 09:41:38 [INFO] - Paquete #18 capturado: Ethernet, IP, TCP - 1107 bytes
+2025-08-02 09:41:38 [INFO] - Paquete #19 capturado: Ethernet, IP, TCP - 785 bytes
+2025-08-02 09:41:38 [INFO] - Paquete #20 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 09:41:38 [INFO] - Paquete #21 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 09:41:40 [INFO] - Paquete #22 capturado: Ethernet, ARP - 60 bytes
+2025-08-02 09:41:40 [INFO] - Paquete #23 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:40 [INFO] - Paquete #24 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:40 [INFO] - Paquete #25 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:40 [INFO] - Paquete #26 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:40 [INFO] - Paquete #27 capturado: Ethernet, IP, UDP, DNS - 168 bytes
+2025-08-02 09:41:42 [INFO] - Paquete #28 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:42 [INFO] - Paquete #29 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:42 [INFO] - Paquete #30 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:42 [WARNING] - ALERTA Alto: PING-FLOOD - IP: 192.168.137.118 - SO: Windows - Ataque de ping flood detectado desde Windows (5 pings)
+2025-08-02 09:41:42 [INFO] - Guardadas 8 IPs bloqueadas
+2025-08-02 09:41:42 [WARNING] - ALERTA Alto: BLOQUEO - IP: 192.168.137.118 - SO: Windows - IP bloqueada manualmente (Windows)
+2025-08-02 09:41:42 [INFO] - IP 192.168.137.118 bloqueada con éxito (incluye bloqueo de pings)
+2025-08-02 09:41:42 [INFO] - Paquete #31 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:42 [INFO] - Paquete #32 capturado: Ethernet, IP, TCP - 78 bytes
+2025-08-02 09:41:44 [INFO] - Paquete #33 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 09:41:44 [INFO] - Paquete #34 capturado: Ethernet, IP, UDP, DNS - 87 bytes
+2025-08-02 09:41:44 [INFO] - Paquete #35 capturado: Ethernet, IP, UDP, DNS - 293 bytes
+2025-08-02 09:41:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.1 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-08-02 09:41:44 [INFO] - Paquete #36 capturado: Ethernet, IP, TCP - 66 bytes
+2025-08-02 09:41:44 [INFO] - Paquete #37 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 09:41:44 [INFO] - Paquete #38 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 09:41:44 [INFO] - Paquete #39 capturado: Ethernet, IP, TCP - 66 bytes
+2025-08-02 09:41:44 [INFO] - Paquete #40 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 09:41:44 [INFO] - Paquete #41 capturado: Ethernet, IP, TCP - 571 bytes
+2025-08-02 09:41:44 [INFO] - Paquete #42 capturado: Ethernet, IP, TCP - 1514 bytes
+2025-08-02 09:41:44 [INFO] - Paquete #43 capturado: Ethernet, IP, TCP - 1514 bytes
+2025-08-02 09:41:44 [INFO] - Paquete #44 capturado: Ethernet, IP, TCP - 1514 bytes
+2025-08-02 09:41:44 [INFO] - Paquete #45 capturado: Ethernet, IP, TCP - 564 bytes
+2025-08-02 09:41:44 [INFO] - Paquete #46 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 09:41:44 [INFO] - Paquete #47 capturado: Ethernet, IP, TCP - 118 bytes
+2025-08-02 09:41:44 [INFO] - Paquete #48 capturado: Ethernet, IP, TCP - 880 bytes
+2025-08-02 09:41:44 [INFO] - Paquete #49 capturado: Ethernet, IP, TCP - 913 bytes
+2025-08-02 09:41:44 [INFO] - Paquete #50 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 09:41:44 [INFO] - Paquete #51 capturado: Ethernet, IP, TCP - 233 bytes
+2025-08-02 09:41:44 [INFO] - Paquete #52 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 09:41:44 [INFO] - Paquete #53 capturado: Ethernet, IP, TCP - 257 bytes
+2025-08-02 09:41:44 [INFO] - Paquete #54 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 09:41:44 [INFO] - Paquete #55 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:41:44 [INFO] - Paquete #56 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:44 [INFO] - Paquete #57 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:41:45 [INFO] - Paquete #58 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:45 [INFO] - Paquete #59 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:45 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:41:46 [INFO] - Paquete #60 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:46 [INFO] - Paquete #61 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:41:47 [INFO] - Paquete #62 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:47 [INFO] - Paquete #63 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:41:48 [INFO] - Paquete #64 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:48 [INFO] - Paquete #65 capturado: Ethernet, IP, TCP - 100 bytes
+2025-08-02 09:41:48 [INFO] - Paquete #66 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 09:41:48 [INFO] - Paquete #67 capturado: Ethernet, IP, TCP - 85 bytes
+2025-08-02 09:41:48 [INFO] - Paquete #68 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 09:41:48 [INFO] - Paquete #69 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:48 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:41:49 [INFO] - Paquete #70 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:49 [INFO] - Paquete #71 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:49 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:41:50 [INFO] - Paquete #72 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:50 [INFO] - Paquete #73 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:50 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:41:51 [INFO] - Paquete #74 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:51 [INFO] - Paquete #75 capturado: Ethernet, ARP - 60 bytes
+2025-08-02 09:41:51 [INFO] - Paquete #76 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 09:41:51 [INFO] - Paquete #77 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:51 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:41:51 [INFO] - Paquete #78 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:51 [INFO] - Paquete #79 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 09:41:51 [INFO] - ALERTA Medio: PING - IP: 192.168.137.139 - SO: Windows - Ping detectado desde sistema Windows (posible reconocimiento) (TTL: 65)
+2025-08-02 09:41:51 [INFO] - Paquete #80 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 09:41:51 [INFO] - Paquete #81 capturado: Ethernet, IP, UDP, DNS - 71 bytes
+2025-08-02 09:41:52 [INFO] - Paquete #82 capturado: Ethernet, IP, UDP, DNS - 71 bytes
+2025-08-02 09:41:52 [INFO] - Paquete #83 capturado: Ethernet, IP, UDP, DNS - 151 bytes
+2025-08-02 09:41:52 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.1 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-08-02 09:41:52 [INFO] - Paquete #84 capturado: Ethernet, IP, UDP - 1292 bytes
+2025-08-02 09:41:52 [INFO] - Paquete #85 capturado: Ethernet, IP, UDP - 122 bytes
+2025-08-02 09:41:52 [INFO] - Paquete #86 capturado: Ethernet, IP, UDP - 1292 bytes
+2025-08-02 09:41:52 [INFO] - Paquete #87 capturado: Ethernet, IP, UDP - 713 bytes
+2025-08-02 09:41:52 [INFO] - Paquete #88 capturado: Ethernet, IP, UDP - 1242 bytes
+2025-08-02 09:41:52 [INFO] - Paquete #89 capturado: Ethernet, IP, UDP - 132 bytes
+2025-08-02 09:41:52 [INFO] - Paquete #90 capturado: Ethernet, IP, UDP - 94 bytes
+2025-08-02 09:41:52 [INFO] - Paquete #91 capturado: Ethernet, IP, UDP - 66 bytes
+2025-08-02 09:41:52 [INFO] - Paquete #92 capturado: Ethernet, IP, UDP - 66 bytes
+2025-08-02 09:41:52 [INFO] - Paquete #93 capturado: Ethernet, IP, UDP - 91 bytes
+2025-08-02 09:41:52 [INFO] - Paquete #94 capturado: Ethernet, IP, UDP - 86 bytes
+2025-08-02 09:41:52 [INFO] - Paquete #95 capturado: Ethernet, IP, UDP - 85 bytes
+2025-08-02 09:41:52 [INFO] - Paquete #96 capturado: Ethernet, IP, UDP - 89 bytes
+2025-08-02 09:41:52 [INFO] - Paquete #97 capturado: Ethernet, IP, UDP - 64 bytes
+2025-08-02 09:41:52 [INFO] - Paquete #98 capturado: Ethernet, IP, UDP - 1292 bytes
+2025-08-02 09:41:52 [INFO] - Paquete #99 capturado: Ethernet, IP, UDP - 136 bytes
+2025-08-02 09:41:52 [INFO] - Paquete #100 capturado: Ethernet, IP, UDP - 70 bytes
+2025-08-02 09:41:52 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.1 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-08-02 09:41:52 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:41:53 [INFO] - Paquete #110 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 09:41:53 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:41:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:41:55 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:41:56 [INFO] - Paquete #120 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:57 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:41:57 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:41:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:41:59 [INFO] - Paquete #130 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:41:59 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:00 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:01 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:02 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:04 [INFO] - Paquete #140 capturado: Ethernet, IP, TCP - 174 bytes
+2025-08-02 09:42:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.1 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-08-02 09:42:04 [INFO] - Paquete #150 capturado: Ethernet, IP, TCP - 66 bytes
+2025-08-02 09:42:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.1 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-08-02 09:42:04 [INFO] - Paquete #160 capturado: Ethernet, IP, TCP - 237 bytes
+2025-08-02 09:42:04 [INFO] - Paquete #170 capturado: Ethernet, IP, TCP, HTTP - 266 bytes
+2025-08-02 09:42:04 [INFO] - Paquete #180 capturado: Ethernet, IP, TCP - 1514 bytes
+2025-08-02 09:42:05 [INFO] - Paquete #190 capturado: Ethernet, IP, TCP - 1514 bytes
+2025-08-02 09:42:05 [INFO] - Paquete #200 capturado: Ethernet, IP, TCP - 1514 bytes
+2025-08-02 09:42:05 [INFO] - Paquete #210 capturado: Ethernet, IP, TCP - 1514 bytes
+2025-08-02 09:42:05 [INFO] - Paquete #220 capturado: Ethernet, IP, TCP - 1017 bytes
+2025-08-02 09:42:05 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:05 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.1 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-08-02 09:42:05 [INFO] - Paquete #230 capturado: Ethernet, IP, TCP - 66 bytes
+2025-08-02 09:42:05 [INFO] - Paquete #240 capturado: Ethernet, IP, TCP - 233 bytes
+2025-08-02 09:42:05 [INFO] - Paquete #250 capturado: Ethernet, IP, TCP - 382 bytes
+2025-08-02 09:42:05 [INFO] - Paquete #260 capturado: Ethernet, IP, TCP - 1352 bytes
+2025-08-02 09:42:07 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:07 [INFO] - Paquete #270 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:42:07 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:09 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:09 [INFO] - Paquete #280 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:42:09 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:12 [INFO] - Paquete #290 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 09:42:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:16 [INFO] - Paquete #300 capturado: Ethernet, ARP - 60 bytes
+2025-08-02 09:42:16 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:16 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:17 [INFO] - Paquete #310 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:42:17 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:18 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.1 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-08-02 09:42:19 [INFO] - Paquete #320 capturado: Ethernet, IP, TCP - 66 bytes
+2025-08-02 09:42:19 [INFO] - Paquete #330 capturado: Ethernet, IP, TCP - 932 bytes
+2025-08-02 09:42:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:21 [INFO] - Paquete #340 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:42:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:23 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:23 [INFO] - Paquete #350 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 09:42:25 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:25 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:27 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:28 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:29 [INFO] - Paquete #360 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:42:29 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:30 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:31 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:32 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:33 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:34 [INFO] - Paquete #370 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:42:34 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:36 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:37 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:38 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:40 [INFO] - Paquete #380 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:42:40 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:41 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:41 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:42 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:43 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:44 [INFO] - Paquete #390 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:42:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:45 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.1 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-08-02 09:42:45 [INFO] - Paquete #400 capturado: Ethernet, IP, TCP - 66 bytes
+2025-08-02 09:42:45 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:45 [INFO] - Paquete #410 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 09:42:45 [INFO] - Paquete #420 capturado: Ethernet, IP, TCP - 417 bytes
+2025-08-02 09:42:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:48 [INFO] - Paquete #430 capturado: Ethernet, IP, TCP - 78 bytes
+2025-08-02 09:42:48 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:50 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:50 [INFO] - Paquete #440 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:42:50 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:52 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:52 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:53 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:54 [INFO] - Paquete #450 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:42:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:55 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:56 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:57 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:42:59 [INFO] - Paquete #460 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:42:59 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:00 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:01 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:02 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:03 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:04 [INFO] - Paquete #470 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:43:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:05 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:07 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:08 [INFO] - Paquete #480 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:43:08 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:09 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:12 [INFO] - Paquete #490 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:43:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:13 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:15 [INFO] - Paquete #500 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:43:15 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:16 [INFO] - ALERTA Medio: PING - IP: 192.168.137.139 - SO: Windows - Ping detectado desde sistema Windows (posible reconocimiento) (TTL: 65)
+2025-08-02 09:43:16 [WARNING] - ALERTA Alto: PING-FLOOD - IP: 192.168.137.139 - SO: Windows - Ataque de ping flood detectado desde Windows (5 pings)
+2025-08-02 09:43:16 [INFO] - Guardadas 9 IPs bloqueadas
+2025-08-02 09:43:16 [WARNING] - ALERTA Alto: BLOQUEO - IP: 192.168.137.139 - SO: Windows - IP bloqueada manualmente (Windows)
+2025-08-02 09:43:16 [INFO] - IP 192.168.137.139 bloqueada con éxito (incluye bloqueo de pings)
+2025-08-02 09:43:17 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:17 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:18 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:18 [INFO] - Paquete #510 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 09:43:18 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.118 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:20 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:22 [INFO] - Paquete #520 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 09:43:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:23 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:24 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:25 [INFO] - Paquete #530 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 09:43:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:27 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:28 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:29 [INFO] - Paquete #540 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 09:43:29 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:30 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:43:30 [INFO] - Paquete #550 capturado: Ethernet, IP, TCP - 88 bytes
+2025-08-02 09:43:46 [INFO] - ALERTA Medio: PING - IP: 192.168.137.246 - SO: Linux - Ping detectado desde sistema Linux/Unix (posible reconocimiento) (TTL: 63)
+2025-08-02 09:43:47 [INFO] - Paquete #560 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:43:48 [WARNING] - ALERTA Alto: PING-FLOOD - IP: 192.168.137.246 - SO: Linux - Ataque de ping flood detectado desde Linux/Unix (5 pings)
+2025-08-02 09:43:48 [INFO] - Guardadas 10 IPs bloqueadas
+2025-08-02 09:43:48 [WARNING] - ALERTA Alto: BLOQUEO - IP: 192.168.137.246 - SO: Linux - IP bloqueada manualmente (Linux/Unix)
+2025-08-02 09:43:48 [INFO] - IP 192.168.137.246 bloqueada con éxito (incluye bloqueo de pings)
+2025-08-02 09:43:49 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:43:51 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:43:51 [INFO] - Paquete #570 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:43:51 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:43:52 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:43:53 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:43:55 [INFO] - Paquete #580 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 09:43:55 [INFO] - Paquete #590 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 09:43:55 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:43:55 [INFO] - Paquete #600 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 09:43:55 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:43:56 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:43:57 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:43:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:43:59 [INFO] - Paquete #610 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:43:59 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:44:00 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:44:01 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:44:02 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:44:03 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:44:04 [INFO] - Paquete #620 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:44:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:44:05 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:44:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:44:07 [INFO] - Paquete #630 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:44:07 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:44:09 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:44:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:44:10 [INFO] - Paquete #640 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:44:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:44:14 [INFO] - Paquete #650 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 09:44:51 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:44:52 [INFO] - Paquete #660 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 09:44:53 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:44:54 [INFO] - Paquete #670 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 09:44:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:44:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:44:55 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:44:57 [INFO] - Paquete #680 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 09:44:57 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:44:57 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:44:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:17 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:18 [INFO] - Paquete #690 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:45:18 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:20 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:20 [INFO] - Paquete #700 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:45:20 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:23 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:23 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:24 [INFO] - Paquete #710 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:45:24 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:25 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:27 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:28 [INFO] - Paquete #720 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:45:28 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:29 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:30 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:31 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:32 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:32 [INFO] - Paquete #730 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 09:45:33 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:35 [INFO] - Paquete #740 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:45:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:36 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:37 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:38 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:38 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:39 [INFO] - Paquete #750 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:45:39 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:39 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:40 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:40 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:40 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:40 [INFO] - Paquete #760 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 09:45:40 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:41 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:41 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:42 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:42 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:42 [INFO] - Paquete #770 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 09:45:42 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:42 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:43 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:44 [INFO] - Paquete #780 capturado: Ethernet, IP, TCP - 90 bytes
+2025-08-02 09:45:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:44 [INFO] - Paquete #790 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 09:45:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:45 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:45 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:46 [INFO] - Paquete #800 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 09:45:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:48 [INFO] - Paquete #810 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 09:45:48 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:48 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:48 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:48 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:49 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:49 [INFO] - Paquete #820 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:45:49 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:50 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:50 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:50 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:50 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:51 [INFO] - Paquete #830 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 09:45:51 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:51 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:52 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:52 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:52 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:52 [INFO] - Paquete #840 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 09:45:52 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:53 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:53 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:54 [INFO] - Paquete #850 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:45:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:55 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:55 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:56 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:56 [INFO] - Paquete #860 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 09:45:56 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:56 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:56 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:57 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:57 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:58 [INFO] - Paquete #870 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 09:45:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:45:59 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:45:59 [INFO] - Paquete #880 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:45:59 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:00 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:00 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:46:00 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:00 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:01 [INFO] - Paquete #890 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 09:46:01 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:46:01 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:02 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:02 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:46:02 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:02 [INFO] - Paquete #900 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 09:46:02 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:03 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:46:03 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:46:04 [INFO] - Paquete #910 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:46:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:05 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:46:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:06 [INFO] - Paquete #920 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 09:46:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.1 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-08-02 09:46:06 [INFO] - Paquete #930 capturado: Ethernet, IP, TCP - 515 bytes
+2025-08-02 09:46:06 [INFO] - Paquete #940 capturado: Ethernet, IP, UDP, DNS - 79 bytes
+2025-08-02 09:46:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.1 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-08-02 09:46:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:06 [INFO] - Paquete #950 capturado: Ethernet, IP, TCP - 677 bytes
+2025-08-02 09:46:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:46:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:07 [INFO] - Paquete #960 capturado: Ethernet, IP, TCP - 225 bytes
+2025-08-02 09:46:07 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:07 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:46:07 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.1 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-08-02 09:46:07 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:07 [INFO] - Paquete #970 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 09:46:08 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:08 [INFO] - Paquete #980 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 09:46:08 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:46:09 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:09 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:09 [INFO] - Paquete #990 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 09:46:09 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:46:09 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:46:11 [INFO] - Paquete #1000 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:46:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:46:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:12 [INFO] - Paquete #1010 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 09:46:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:46:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:13 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:13 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:46:14 [INFO] - Paquete #1020 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 09:46:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:46:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:15 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:46:16 [INFO] - Paquete #1030 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 09:46:16 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:16 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:46:16 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 09:46:17 [INFO] - Captura detenida
+2025-08-02 09:46:17 [INFO] - Captura detenida - 1037 paquetes capturados
+2025-08-02 09:46:17 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 09:46:17 [INFO] - Paquete #1040 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 09:46:17 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:01:30 [INFO] - Logger inicializado (Windows 10)
+2025-08-02 11:01:30 [INFO] - Sistema de monitoreo IDS iniciado en modo normal
+2025-08-02 11:01:30 [INFO] - Sistema operativo detectado: Windows 10 (64bit)
+2025-08-02 11:01:30 [INFO] - Se encontraron 14 interfaces de red
+2025-08-02 11:01:30 [INFO] - Compatibilidad WinPcap OK - La captura de paquetes ICMP debería funcionar
+2025-08-02 11:01:31 [INFO] - Tema claro aplicado
+2025-08-02 11:01:31 [INFO] - Tema claro aplicado
+2025-08-02 11:03:19 [INFO] - No hay interfaz seleccionada, mostrando diálogo
+2025-08-02 11:03:29 [INFO] - Interfaz seleccionada: \Device\NPF_{089A27A5-ACF2-4F67-B4FA-1CD3F4C1C92E} - Realtek RTL8723DE 802.11b/g/n PCIe Adapter
+2025-08-02 11:03:29 [INFO] - Interfaz seleccionada para captura: \Device\NPF_{089A27A5-ACF2-4F67-B4FA-1CD3F4C1C92E} - Realtek RTL8723DE 802.11b/g/n PCIe Adapter
+2025-08-02 11:03:32 [INFO] - Creando capturer para interfaz: \Device\NPF_{089A27A5-ACF2-4F67-B4FA-1CD3F4C1C92E}
+2025-08-02 11:03:32 [INFO] - Usando modo de captura por lotes (optimizado)
+2025-08-02 11:03:32 [INFO] - Filtro actual: ''
+2025-08-02 11:03:32 [INFO] - Captura iniciada en interfaz: \Device\NPF_{089A27A5-ACF2-4F67-B4FA-1CD3F4C1C92E}
+2025-08-02 11:03:32 [INFO] - Captura iniciada correctamente
+2025-08-02 11:03:32 [INFO] - Paquete #1 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:32 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:03:33 [INFO] - Paquete #2 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:33 [INFO] - Paquete #3 capturado: Ethernet, IP, TCP - 66 bytes
+2025-08-02 11:03:33 [INFO] - Paquete #4 capturado: Ethernet, IP, TCP - 66 bytes
+2025-08-02 11:03:34 [INFO] - Paquete #5 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:34 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:03:34 [INFO] - Paquete #6 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 11:03:34 [INFO] - Paquete #7 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:34 [INFO] - Paquete #8 capturado: Ethernet, IP, TCP - 543 bytes
+2025-08-02 11:03:34 [INFO] - Paquete #9 capturado: Ethernet, IP, TCP - 199 bytes
+2025-08-02 11:03:34 [INFO] - Paquete #10 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 11:03:34 [INFO] - Paquete #11 capturado: Ethernet, IP, TCP - 105 bytes
+2025-08-02 11:03:34 [INFO] - Paquete #12 capturado: Ethernet, IP, TCP - 674 bytes
+2025-08-02 11:03:34 [INFO] - Paquete #13 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 11:03:34 [INFO] - Paquete #14 capturado: Ethernet, IP, TCP - 932 bytes
+2025-08-02 11:03:34 [INFO] - Paquete #15 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 11:03:34 [INFO] - Paquete #16 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:34 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:03:35 [INFO] - Paquete #17 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:35 [INFO] - Paquete #18 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:03:36 [INFO] - Paquete #19 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:36 [INFO] - Paquete #20 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:36 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:03:37 [INFO] - Paquete #21 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:37 [INFO] - Paquete #22 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:37 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:03:38 [INFO] - Paquete #23 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:38 [INFO] - Paquete #24 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:38 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:03:41 [INFO] - Paquete #25 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:41 [INFO] - Paquete #26 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:41 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:03:42 [INFO] - Paquete #27 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 11:03:42 [INFO] - Paquete #28 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:42 [INFO] - Paquete #29 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 11:03:42 [INFO] - Paquete #30 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:42 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:03:43 [INFO] - Paquete #31 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:43 [INFO] - Paquete #32 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:43 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:03:44 [INFO] - Paquete #33 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:44 [INFO] - Paquete #34 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:03:46 [INFO] - Paquete #35 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:46 [INFO] - Paquete #36 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:03:48 [INFO] - Paquete #37 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:48 [INFO] - Paquete #38 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:48 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:03:49 [INFO] - Paquete #39 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:49 [INFO] - Paquete #40 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:49 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:03:50 [INFO] - Paquete #41 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:50 [INFO] - Paquete #42 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:50 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:03:51 [INFO] - Paquete #43 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:51 [INFO] - Paquete #44 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 11:03:52 [INFO] - Paquete #45 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 11:03:52 [INFO] - Paquete #46 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:52 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:03:52 [INFO] - Paquete #47 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:52 [INFO] - Paquete #48 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:52 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:03:53 [INFO] - Paquete #49 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:53 [INFO] - Paquete #50 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:53 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:03:54 [INFO] - Paquete #51 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:54 [INFO] - Paquete #52 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:03:55 [INFO] - Paquete #53 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:55 [INFO] - Paquete #54 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:55 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:03:56 [INFO] - Paquete #55 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:56 [INFO] - Paquete #56 capturado: Ethernet, IP, TCP - 55 bytes
+2025-08-02 11:03:56 [INFO] - Paquete #57 capturado: Ethernet, IP, TCP - 66 bytes
+2025-08-02 11:03:56 [INFO] - Paquete #58 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:56 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:03:57 [INFO] - Paquete #59 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:57 [INFO] - Paquete #60 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:57 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:03:58 [INFO] - Paquete #61 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:58 [INFO] - Paquete #62 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:03:59 [INFO] - Paquete #63 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:59 [INFO] - Paquete #64 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:03:59 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:00 [INFO] - Paquete #65 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:00 [INFO] - Paquete #66 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:00 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:01 [INFO] - Paquete #67 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:01 [INFO] - Paquete #68 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:01 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:03 [INFO] - Paquete #69 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:03 [INFO] - Paquete #70 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:03 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:04 [INFO] - Paquete #71 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:04 [INFO] - Paquete #72 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:05 [INFO] - Paquete #73 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:05 [INFO] - Paquete #74 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 11:04:06 [INFO] - Paquete #75 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 11:04:06 [INFO] - Paquete #76 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:06 [INFO] - Paquete #77 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:06 [INFO] - Paquete #78 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:08 [INFO] - Paquete #79 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:08 [INFO] - Paquete #80 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:08 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:09 [INFO] - Paquete #81 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:09 [INFO] - Paquete #82 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:09 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:09 [INFO] - Paquete #83 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:09 [INFO] - Paquete #84 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:09 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:10 [INFO] - Paquete #85 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:10 [INFO] - Paquete #86 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:11 [INFO] - Paquete #87 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:11 [INFO] - Paquete #88 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:11 [INFO] - Paquete #89 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:11 [INFO] - Paquete #90 capturado: Ethernet, IP, TCP - 172 bytes
+2025-08-02 11:04:12 [INFO] - Paquete #91 capturado: Ethernet, IP, TCP - 172 bytes
+2025-08-02 11:04:12 [INFO] - Paquete #92 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:12 [INFO] - Paquete #93 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:12 [INFO] - Paquete #94 capturado: Ethernet, IP, TCP - 172 bytes
+2025-08-02 11:04:13 [INFO] - Paquete #95 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 11:04:13 [INFO] - Paquete #96 capturado: Ethernet, IP, TCP - 88 bytes
+2025-08-02 11:04:13 [INFO] - Paquete #97 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 11:04:13 [INFO] - Paquete #98 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:13 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:14 [INFO] - Paquete #99 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:14 [INFO] - Paquete #100 capturado: Ethernet, IP, UDP, DNS - 74 bytes
+2025-08-02 11:04:15 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.1 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-08-02 11:04:15 [INFO] - Paquete #110 capturado: Ethernet, IP, TCP - 1514 bytes
+2025-08-02 11:04:15 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:16 [INFO] - Paquete #120 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 11:04:16 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:17 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:17 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:19 [INFO] - Paquete #130 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:20 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:22 [INFO] - Paquete #140 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:24 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:24 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:25 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:26 [INFO] - Paquete #150 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:27 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:28 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:30 [INFO] - Paquete #160 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 11:04:30 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:30 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.1 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-08-02 11:04:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:35 [INFO] - Paquete #170 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:36 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:37 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:39 [INFO] - Paquete #180 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:39 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:40 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:40 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:41 [INFO] - Paquete #190 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:41 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:42 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:43 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:45 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:46 [INFO] - Paquete #200 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:48 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:49 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:50 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:51 [INFO] - Paquete #210 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:51 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:52 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:54 [INFO] - Paquete #220 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:55 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:57 [INFO] - Paquete #230 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:04:57 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:57 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:04:59 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:00 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:01 [INFO] - Paquete #240 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 11:05:03 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:03 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:05 [INFO] - Paquete #250 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:05:05 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:07 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:08 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:09 [INFO] - Paquete #260 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:05:09 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:15 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:16 [INFO] - Paquete #270 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:05:16 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:20 [INFO] - Paquete #280 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 11:05:20 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:23 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:24 [INFO] - Paquete #290 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:05:24 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:25 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:28 [INFO] - Paquete #300 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:05:28 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:28 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:29 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:30 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:31 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:33 [INFO] - Paquete #310 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:05:33 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:33 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:35 [INFO] - Paquete #320 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:05:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:37 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:37 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:38 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:39 [INFO] - Paquete #330 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:05:39 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:40 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:43 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:43 [INFO] - Paquete #340 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:05:43 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:43 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:45 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:47 [INFO] - Paquete #350 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:05:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:49 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:50 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:50 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:51 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:52 [INFO] - Paquete #360 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:05:52 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:53 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:55 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:56 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:05:57 [INFO] - Paquete #370 capturado: Ethernet, IP, TCP - 90 bytes
+2025-08-02 11:05:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:00 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:00 [INFO] - Paquete #380 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:06:00 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:01 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:01 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:02 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:04 [INFO] - Paquete #390 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:06:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:05 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:07 [INFO] - Paquete #400 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:06:07 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:07 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:08 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:09 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:09 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:11 [INFO] - Paquete #410 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:06:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:12 [INFO] - Paquete #420 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 11:06:13 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:15 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:16 [INFO] - Paquete #430 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 11:06:16 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:16 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:16 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:16 [INFO] - Paquete #440 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 11:06:17 [INFO] - Paquete #450 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:06:17 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:17 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:18 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:19 [INFO] - Paquete #460 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:06:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:20 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:22 [INFO] - Paquete #470 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:06:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:23 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:23 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:24 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:24 [INFO] - Paquete #480 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:06:24 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.1 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-08-02 11:06:26 [INFO] - Paquete #490 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:06:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:27 [INFO] - Paquete #500 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 11:06:27 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:27 [INFO] - Paquete #510 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:06:27 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:28 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.1 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-08-02 11:06:28 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:28 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.1 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-08-02 11:06:28 [INFO] - Paquete #520 capturado: Ethernet, IP, UDP - 123 bytes
+2025-08-02 11:06:28 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:28 [INFO] - Paquete #530 capturado: Ethernet, IP, UDP - 902 bytes
+2025-08-02 11:06:28 [INFO] - Paquete #540 capturado: Ethernet, IP, UDP - 66 bytes
+2025-08-02 11:06:29 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:29 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:30 [INFO] - Paquete #550 capturado: Ethernet, IP, UDP - 884 bytes
+2025-08-02 11:06:30 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:30 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:31 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:31 [INFO] - Paquete #560 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:06:31 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:31 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:32 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:32 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:33 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:33 [INFO] - Paquete #570 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:06:33 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:36 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:37 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:38 [INFO] - Paquete #580 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:06:38 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:38 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:39 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:39 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:41 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:41 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:41 [INFO] - Paquete #590 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:06:41 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:41 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:42 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:42 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:43 [INFO] - Paquete #600 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:06:43 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:45 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:46 [INFO] - Paquete #610 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:06:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:49 [INFO] - Paquete #620 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 11:06:49 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:49 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:49 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:50 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:51 [INFO] - Paquete #630 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:06:51 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:51 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:52 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:52 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:53 [INFO] - Paquete #640 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:06:53 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:53 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:53 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:55 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:55 [INFO] - Paquete #650 capturado: Ethernet, IP, TCP - 55 bytes
+2025-08-02 11:06:55 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:55 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:06:57 [INFO] - Paquete #660 capturado: Ethernet, IP, TCP - 172 bytes
+2025-08-02 11:06:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:58 [INFO] - Paquete #670 capturado: Ethernet, IP, TCP - 88 bytes
+2025-08-02 11:06:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:06:59 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:00 [INFO] - Paquete #680 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:07:00 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:01 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:02 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:02 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:02 [INFO] - Paquete #690 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:07:02 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:03 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:05 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:06 [INFO] - Paquete #700 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:07:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:09 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:10 [INFO] - Paquete #710 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:07:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:12 [INFO] - Paquete #720 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:07:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:13 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:14 [WARNING] - La IP 192.168.137.246 ya está bloqueada
+2025-08-02 11:07:15 [INFO] - Paquete #730 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:07:15 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:15 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:16 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:17 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:18 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:18 [INFO] - Paquete #740 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:07:18 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:20 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:21 [INFO] - Paquete #750 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 11:07:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:22 [INFO] - Paquete #760 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:07:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:24 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:24 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:25 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:25 [INFO] - Paquete #770 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:07:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:29 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:29 [INFO] - Paquete #780 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 11:07:29 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:29 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:30 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:31 [INFO] - Paquete #790 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:07:31 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:32 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:32 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:35 [INFO] - Paquete #800 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 11:07:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:36 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:36 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:37 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:38 [INFO] - Paquete #810 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:07:38 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:39 [INFO] - Paquete #820 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:07:39 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:40 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:41 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:42 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:42 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:43 [INFO] - Paquete #830 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:07:43 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:43 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:45 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:46 [INFO] - Paquete #840 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 11:07:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (Desconocido)
+2025-08-02 11:07:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (Desconocido)
+2025-08-02 11:07:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (Desconocido)
+2025-08-02 11:07:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (Desconocido)
+2025-08-02 11:07:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (Desconocido)
+2025-08-02 11:07:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (UDP)
+2025-08-02 11:07:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:47 [INFO] - Paquete #850 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 11:07:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (Desconocido)
+2025-08-02 11:07:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (UDP)
+2025-08-02 11:07:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:47 [INFO] - Paquete #860 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:07:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:48 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:48 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:49 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:49 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:51 [INFO] - Paquete #870 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:07:51 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:51 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:52 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:52 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:53 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:53 [INFO] - Paquete #880 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:07:53 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:54 [INFO] - Paquete #890 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:07:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:55 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.1 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-08-02 11:07:56 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.1 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-08-02 11:07:56 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:56 [INFO] - Paquete #900 capturado: Ethernet, IP, TCP - 66 bytes
+2025-08-02 11:07:56 [INFO] - Paquete #910 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:07:56 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:57 [INFO] - Paquete #920 capturado: Ethernet, IP, TCP - 474 bytes
+2025-08-02 11:07:57 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:57 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:58 [INFO] - Paquete #930 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:07:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:07:59 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:07:59 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:00 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:00 [INFO] - Paquete #940 capturado: Ethernet, IP, UDP - 179 bytes
+2025-08-02 11:08:00 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:01 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:01 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:01 [INFO] - Paquete #950 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:08:02 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:02 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:02 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:02 [INFO] - Paquete #960 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 11:08:03 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:03 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:05 [INFO] - Paquete #970 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:08:05 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:07 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:08 [INFO] - Paquete #980 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:08:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:11 [INFO] - Paquete #990 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 11:08:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:13 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:15 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:15 [INFO] - Paquete #1000 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:08:15 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:16 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:16 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:16 [INFO] - Paquete #1010 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:08:16 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:17 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:17 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:21 [INFO] - Paquete #1020 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:08:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:21 [INFO] - Paquete #1030 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:08:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:22 [INFO] - Paquete #1040 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:08:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:23 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:23 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:24 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:25 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:26 [INFO] - Paquete #1050 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:08:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:27 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:27 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:28 [INFO] - Paquete #1060 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:08:28 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:28 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:29 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:30 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:30 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:31 [INFO] - Paquete #1070 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:08:31 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:31 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:32 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:33 [INFO] - Paquete #1080 capturado: Ethernet, IP, TCP - 153 bytes
+2025-08-02 11:08:33 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:33 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:33 [INFO] - Paquete #1090 capturado: Ethernet, IP, TCP - 66 bytes
+2025-08-02 11:08:33 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:35 [INFO] - Paquete #1100 capturado: Ethernet, IP, TCP - 66 bytes
+2025-08-02 11:08:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:35 [INFO] - Paquete #1110 capturado: Ethernet, IP, TCP - 54 bytes
+2025-08-02 11:08:37 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:37 [INFO] - Paquete #1120 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:08:37 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:37 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:37 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:37 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:37 [INFO] - Paquete #1130 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 11:08:38 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:39 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:39 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:40 [INFO] - Paquete #1140 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:08:40 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:41 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:41 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:41 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:42 [INFO] - Paquete #1150 capturado: Ethernet, IP, TCP - 66 bytes
+2025-08-02 11:08:42 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:43 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:43 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:44 [INFO] - Paquete #1160 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:08:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:49 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:49 [INFO] - Paquete #1170 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:08:49 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:50 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:50 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:51 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:51 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:52 [INFO] - Paquete #1180 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:08:52 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:53 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:53 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:53 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:54 [INFO] - Paquete #1190 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:08:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:55 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:57 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:58 [INFO] - Paquete #1200 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:08:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:08:59 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:08:59 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:00 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:01 [INFO] - Paquete #1210 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:09:01 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:01 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:01 [INFO] - Paquete #1220 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:09:01 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:02 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:02 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:03 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:04 [INFO] - Paquete #1230 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:09:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:06 [INFO] - Paquete #1240 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:09:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:07 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:08 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:11 [INFO] - Paquete #1250 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:09:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:13 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:15 [INFO] - Paquete #1260 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:09:15 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:15 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:16 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:17 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:18 [INFO] - Paquete #1270 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:09:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:21 [INFO] - Paquete #1280 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:09:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:22 [INFO] - Paquete #1290 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:09:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:23 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:25 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:25 [INFO] - Paquete #1300 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:09:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:27 [INFO] - Paquete #1310 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:09:27 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:28 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:28 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:30 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:32 [INFO] - Paquete #1320 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 11:09:32 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:32 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (UDP)
+2025-08-02 11:09:33 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:33 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:33 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:34 [INFO] - Paquete #1330 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 11:09:34 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Desconocido - Intento de conexión bloqueada desde sistema desconocido (UDP)
+2025-08-02 11:09:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:36 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:37 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:37 [INFO] - Paquete #1340 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 11:09:37 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:38 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:40 [INFO] - Paquete #1350 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:09:40 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:40 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:40 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:41 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:41 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:41 [INFO] - Paquete #1360 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:09:41 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:42 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:43 [INFO] - Paquete #1370 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:09:43 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:43 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.1 - SO: Windows - Intento de conexión bloqueada desde Windows (UDP)
+2025-08-02 11:09:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:45 [INFO] - Paquete #1380 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:09:45 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:48 [INFO] - Paquete #1390 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:09:48 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:48 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:48 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:49 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:49 [INFO] - Paquete #1400 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 11:09:50 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:50 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:51 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:51 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:52 [INFO] - Paquete #1410 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:09:52 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:52 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:53 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:53 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:53 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:54 [INFO] - Paquete #1420 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:09:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:09:55 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:09:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:00 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:00 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:00 [INFO] - Paquete #1430 capturado: Ethernet, IP, TCP - 144 bytes
+2025-08-02 11:10:00 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:00 [INFO] - Paquete #1440 capturado: Ethernet, IP, TCP - 1312 bytes
+2025-08-02 11:10:00 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:00 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:00 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:00 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:01 [INFO] - Paquete #1450 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:10:01 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:03 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:04 [INFO] - Paquete #1460 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:10:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:05 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:05 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:06 [INFO] - Paquete #1470 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:10:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:07 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:07 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:08 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:10 [INFO] - Paquete #1480 capturado: Ethernet, IP, TCP - 86 bytes
+2025-08-02 11:10:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:11 [INFO] - Paquete #1490 capturado: Ethernet, IP, TCP - 55 bytes
+2025-08-02 11:10:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:13 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:13 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:13 [INFO] - Paquete #1500 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:10:13 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:15 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:15 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:15 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:16 [INFO] - Paquete #1510 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:10:16 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:16 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:17 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:18 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:19 [INFO] - Paquete #1520 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:10:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:20 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:20 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:21 [INFO] - Paquete #1530 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:10:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:24 [INFO] - Paquete #1540 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 11:10:24 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:24 [INFO] - Paquete #1550 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:10:24 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:24 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:26 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:28 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:28 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:28 [INFO] - Paquete #1560 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:10:28 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:30 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:31 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:33 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:33 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:33 [INFO] - Paquete #1570 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:10:33 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:33 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:33 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:34 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:34 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:35 [INFO] - Paquete #1580 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:10:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:35 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:38 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:38 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:38 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:38 [INFO] - Paquete #1590 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:10:38 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:40 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:41 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:41 [INFO] - Paquete #1600 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:10:41 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:41 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:41 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:42 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:42 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:43 [INFO] - Paquete #1610 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:10:43 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:44 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:46 [INFO] - Paquete #1620 capturado: Ethernet, ARP - 42 bytes
+2025-08-02 11:10:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:46 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:47 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:48 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:48 [INFO] - Paquete #1630 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:10:48 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:49 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:49 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:50 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:52 [INFO] - Paquete #1640 capturado: Ethernet, IP, TCP - 66 bytes
+2025-08-02 11:10:52 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:52 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:52 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:54 [INFO] - Paquete #1650 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:10:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:54 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:55 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:56 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:56 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:56 [INFO] - Paquete #1660 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:10:57 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:57 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:57 [INFO] - Paquete #1670 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:10:57 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:58 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:10:59 [INFO] - Paquete #1680 capturado: Ethernet, IP, TCP - 66 bytes
+2025-08-02 11:10:59 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:10:59 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:11:00 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:11:00 [INFO] - Paquete #1690 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:11:00 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:11:01 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:11:03 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:11:03 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:11:03 [INFO] - Paquete #1700 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:11:03 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:11:03 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:11:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:11:04 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:11:05 [INFO] - Paquete #1710 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:11:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:11:06 [INFO] - Paquete #1720 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:11:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:11:06 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:11:08 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:11:08 [INFO] - Paquete #1730 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:11:08 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:11:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:11:10 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:11:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:11:11 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:11:12 [INFO] - Paquete #1740 capturado: Ethernet, IP, ICMP - 74 bytes
+2025-08-02 11:11:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:11:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:11:12 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:11:13 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:11:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:11:14 [INFO] - Paquete #1750 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:11:14 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:11:15 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:11:15 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:11:16 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:11:16 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:11:17 [INFO] - Paquete #1760 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:11:17 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:11:18 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:11:19 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:11:20 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:11:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:11:21 [INFO] - Paquete #1770 capturado: Ethernet, IP, ICMP - 98 bytes
+2025-08-02 11:11:21 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:11:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
+2025-08-02 11:11:22 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.139 - SO: Windows - Intento de conexión bloqueada desde Windows (ICMP)
+2025-08-02 11:11:24 [INFO] - Captura detenida
+2025-08-02 11:11:24 [INFO] - Captura detenida - 1774 paquetes capturados
+2025-08-02 11:11:24 [WARNING] - ALERTA Alto: BLOCKED-IP - IP: 192.168.137.246 - SO: Linux - Intento de conexión bloqueada desde Linux/Unix (ICMP)
